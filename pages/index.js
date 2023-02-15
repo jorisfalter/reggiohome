@@ -22,9 +22,9 @@ function Home() {
                   <h2>
                     Hello, I’m <span>Joris</span>
                   </h2>
-                  <h3 className="mb-20"> Welcome to WorkoutEntrepreneur</h3>
+                  <h3 className="mb-20"> Welcome to Workout-Entrepreneur</h3>
                   <h5 className="text-muted">
-                    Get inspired by how other entrepreneurs keep in shape.
+                    Get inspired by how business owners keep in shape.
                   </h5>
                   {/* newsletter signup */}
                   {/* <form className="input-group form-subcriber mt-30 d-flex">
