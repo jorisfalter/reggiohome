@@ -24,7 +24,7 @@ function Home() {
                   </h2>
                   <h3 className="mb-20"> Welcome to Workout-Entrepreneur</h3>
                   <h5 className="text-muted">
-                    Get inspired by how business owners keep in shape.
+                    Get inspired how business owners keep in shape
                   </h5>
                   {/* newsletter signup */}
                   {/* <form className="input-group form-subcriber mt-30 d-flex">
