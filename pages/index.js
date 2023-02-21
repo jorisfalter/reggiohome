@@ -76,10 +76,10 @@ function Home() {
             </div>
             <div className="loop-grid mb-30">
               <div className="row">
-                <div className="col-lg-8 mb-30">
+                {/* <div className="col-lg-8 mb-30">
                   <PostCarousel1 />
-                </div>
-                {post.slice(1, 5).map((item, i) => (
+                </div> */}
+                {post.slice(1, 7).map((item, i) => (
                   <article
                     className="col-lg-4 col-md-6 mb-30 wow fadeInUp animated"
                     data-wow-delay="0.2s"
@@ -94,9 +94,9 @@ function Home() {
                         <Link href={`/blog/${item.id}`}>
                           <a className="img-link"></a>
                         </Link>
-                        <span className="top-right-icon bg-success">
+                        {/* <span className="top-right-icon bg-success">
                           <i className="elegant-icon icon_camera_alt"></i>
-                        </span>
+                        </span> */}
                         <ul className="social-share">
                           <li>
                             <Link href="#">
@@ -169,15 +169,15 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="bg-grey pt-50 pb-50">
-            <div className="container">
+          {/* { <div className="bg-grey pt-50 pb-50"> */}
+          {/*</div><div className="container">
               <div className="row">
-                <div className="col-lg-8">
-                  <div className="post-module-2">
-                    <div className="widget-header-1 position-relative mb-30  wow fadeInUp animated">
+                <div className="col-lg-8"> */}
+          {/* <div className="post-module-2"> */}
+          {/* <div className="widget-header-1 position-relative mb-30  wow fadeInUp animated">
                       <h5 className="mt-5 mb-30">Travel tips</h5>
-                    </div>
-                    <div className="loop-list loop-list-style-1">
+                    </div> */}
+          {/* <div className="loop-list loop-list-style-1">
                       <div className="row">
                         {post.slice(4, 8).map((item, i) => (
                           <article
@@ -275,9 +275,9 @@ function Home() {
                           </article>
                         ))}
                       </div>
-                    </div>
-                  </div>
-                  <div className="post-module-3">
+                    </div> */}
+          {/* </div> */}
+          {/* <div className="post-module-3">
                     <div className="widget-header-1 position-relative mb-30">
                       <h5 className="mt-5 mb-30">Latest posts</h5>
                     </div>
@@ -375,8 +375,8 @@ function Home() {
                         </article>
                       ))}
                     </div>
-                  </div>
-                  <div className="pagination-area mb-30 wow fadeInUp animated">
+                  </div> */}
+          {/* <div className="pagination-area mb-30 wow fadeInUp animated">
                     <nav aria-label="Page navigation example">
                       <ul className="pagination justify-content-start">
                         <li className="page-item">
@@ -415,9 +415,9 @@ function Home() {
                         </li>
                       </ul>
                     </nav>
-                  </div>
-                </div>
-                <div className="col-lg-4">
+                  </div> */}
+          {/* </div> */}
+          {/* <div className="col-lg-4">
                   <div className="widget-area">
                     <div className="sidebar-widget widget-about mb-50 pt-30 pr-30 pb-30 pl-30 bg-white border-radius-5 has-border  wow fadeInUp animated">
                       {author.slice(0, 1).map((item, i) => (
@@ -467,8 +467,8 @@ function Home() {
                           </ul>
                         </>
                       ))}
-                    </div>
-                    <div className="sidebar-widget widget-latest-posts mb-50 wow fadeInUp animated">
+                    </div> */}
+          {/* <div className="sidebar-widget widget-latest-posts mb-50 wow fadeInUp animated">
                       <div className="widget-header-1 position-relative mb-30">
                         <h5 className="mt-5 mb-30">Most popular</h5>
                       </div>
@@ -505,8 +505,8 @@ function Home() {
                           ))}
                         </ul>
                       </div>
-                    </div>
-                    <div className="sidebar-widget widget-latest-posts mb-50 wow fadeInUp animated">
+                    </div> */}
+          {/* <div className="sidebar-widget widget-latest-posts mb-50 wow fadeInUp animated">
                       <div className="widget-header-1 position-relative mb-30">
                         <h5 className="mt-5 mb-30">Last comments</h5>
                       </div>
@@ -603,8 +603,8 @@ function Home() {
                           </li>
                         </ul>
                       </div>
-                    </div>
-                    <div className="sidebar-widget widget_instagram wow fadeInUp animated">
+                    </div> */}
+          {/* <div className="sidebar-widget widget_instagram wow fadeInUp animated">
                       <div className="widget-header-1 position-relative mb-30">
                         <h5 className="mt-5 mb-30">Instagram</h5>
                       </div>
@@ -714,12 +714,12 @@ function Home() {
                           </li>
                         </ul>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+                    </div> */}
+          {/* </div>
+                </div> */}
+          {/* </div> */}
+          {/* </div> */}
+          {/* </div> */}
         </main>
       </Layout>
     </>

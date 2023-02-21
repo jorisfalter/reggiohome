@@ -265,7 +265,7 @@ const Menu = ({ addClass }) => {
               </div>
             </nav>
           </div>
-          <div className="float-right header-tools text-muted font-small">
+          {/* <div className="float-right header-tools text-muted font-small">
             <ul className="header-social-network d-inline-block list-inline mr-15">
               <li className="list-inline-item">
                 <Link href="/#">
@@ -310,7 +310,7 @@ const Menu = ({ addClass }) => {
                 <span></span>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="clearfix"></div>
         </div>
       </div>
