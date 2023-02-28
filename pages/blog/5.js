@@ -34,92 +34,26 @@ const SingleVendor = () => {
               <div className="entry-header entry-header-style-1 mb-50 pt-50">
                 <h1 className="entry-title mb-50 font-weight-900">
                   {/* {singleData.title} */}
-                  Replacement title 1
+                  Running marathons while freelancing and building travel apps
                 </h1>
-                <div className="row">
-                  <div className="col-md-6">
-                    <div className="entry-meta align-items-center meta-2 font-small color-muted">
-                      <p className="mb-5">
-                        <Link href="/author">
-                          <a className="author-avatar" href="#">
-                            <img
-                              className="img-circle"
-                              src="/assets/imgs/authors/author-3.jpg"
-                              alt=""
-                            />
-                          </a>
-                        </Link>
-                        By
-                        <Link href="/author">
-                          <a>
-                            <span className="author-name font-weight-bold">
-                              {/* {singleData.author} */}
-                              Replacement author
-                            </span>
-                          </a>
-                        </Link>
-                      </p>
-                      <span className="mr-10">
-                        {/* {singleData.date} {new Date().getFullYear()} */}
-                        2023
-                      </span>
-                      <span className="has-dot">
-                        {/* {singleData.readTime} mins read */}4 mins read
-                      </span>
-                    </div>
-                  </div>
-                  <div className="col-md-6 text-right d-none d-md-inline">
-                    <ul className="header-social-network d-inline-block list-inline mr-15">
-                      <li className="list-inline-item text-muted">
-                        <span>Share this: </span>
-                      </li>
-                      <li className="list-inline-item">
-                        <a
-                          className="social-icon fb text-xs-center"
-                          target="_blank"
-                          href="#"
-                        >
-                          <i className="elegant-icon social_facebook"></i>
-                        </a>
-                      </li>
-                      <li className="list-inline-item">
-                        <a
-                          className="social-icon tw text-xs-center"
-                          target="_blank"
-                          href="#"
-                        >
-                          <i className="elegant-icon social_twitter "></i>
-                        </a>
-                      </li>
-                      <li className="list-inline-item">
-                        <a
-                          className="social-icon pt text-xs-center"
-                          target="_blank"
-                          href="#"
-                        >
-                          <i className="elegant-icon social_pinterest "></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                <div className="row"></div>
               </div>
               {/* <!--end single header--> */}
-              {/* <figure className="image mb-30 m-auto text-center border-radius-10">
+              <figure className="image mb-30 m-auto text-center border-radius-10">
                 <img
                   className="border-radius-10"
-                  src={`/assets/imgs/news/${singleData.img}`}
+                  src={`/assets/imgs/news/1-icebath.jpg`}
                   alt="post-title"
+                  height="300px"
                 />
-              </figure> */}
-              enter a picture here
+              </figure>
               {/* <!--figure--> */}
               <article className="entry-wraper mb-50">
                 <div className="excerpt mb-30">
                   <p>This is my template text.</p>
                 </div>
                 <div className="entry-main-content dropcap wow fadeIn animated">
-                  <p>It's going to be amazing.</p>
+                  {/* <p>It's going to be amazing.</p> */}
                   <hr className="wp-block-separator is-style-dots" />
                   <p>
                     Thanks sniffed in hello after in foolhardy and some far
@@ -132,7 +66,7 @@ const SingleVendor = () => {
                     altruistic and and lighted more instead much when ferret but
                     the.
                   </p>
-                  <figure className="wp-block-gallery columns-3 wp-block-image">
+                  {/* <figure className="wp-block-gallery columns-3 wp-block-image">
                     <ul className="blocks-gallery-grid">
                       <li className="blocks-gallery-item">
                         <Link href="/#">
@@ -172,6 +106,14 @@ const SingleVendor = () => {
                       <i className="ti-credit-card mr-5"></i>
                       Image credit: Pexel
                     </figcaption>
+                  </figure> */}
+                  <figure className="image mb-30 m-auto text-center border-radius-10">
+                    <img
+                      className="border-radius-10"
+                      src={`/assets/imgs/news/1-icebath.jpg`}
+                      alt="post-title"
+                      height="300px"
+                    />
                   </figure>
                   <hr className="section-divider" />
                   <p>
@@ -245,17 +187,7 @@ const SingleVendor = () => {
                   </p>
                   <h3>Getting Crypto Rich</h3>
                   <hr className="wp-block-separator is-style-wide" />
-                  <div className="wp-block-image">
-                    <figure className="alignleft is-resized">
-                      <img
-                        className="border-radius-5"
-                        src="/assets/imgs/news/thumb-11.jpg"
-                      />
-                      <figcaption>
-                        And far contrary smoked some contrary among stealthy
-                      </figcaption>
-                    </figure>
-                  </div>
+
                   <p>
                     And far contrary smoked some contrary among stealthy
                     engagingly suspiciously a cockatoo far circa sank dully lewd
@@ -338,24 +270,6 @@ const SingleVendor = () => {
                   </div>
                 </div>
                 <div className="single-social-share clearfix wow fadeIn animated">
-                  <div className="entry-meta meta-1 font-small color-grey float-left mt-10">
-                    <span className="hit-count mr-15">
-                      <i className="elegant-icon icon_comment_alt mr-5"></i>
-                      {/* {singleData.comments} comments */}
-                      comments
-                    </span>
-                    <span className="hit-count mr-15">
-                      <i className="elegant-icon icon_like mr-5"></i>
-                      {/* {singleData.likes}  */}
-                      likes
-                    </span>
-                    <span className="hit-count">
-                      <i className="elegant-icon icon_star-half_alt mr-5"></i>
-                      Rate:
-                      {/* {singleData.rating} */}
-                      10/10
-                    </span>
-                  </div>
                   <ul className="header-social-network d-inline-block list-inline float-md-right mt-md-0 mt-4">
                     <li className="list-inline-item text-muted">
                       <span>Share this:</span>
@@ -392,75 +306,7 @@ const SingleVendor = () => {
                     </li>
                   </ul>
                 </div>
-                {/* <!--author box--> */}
-                <div className="author-bio p-30 mt-50 border-radius-10 bg-white wow fadeIn animated">
-                  <div className="author-image mb-30">
-                    <Link href="/author">
-                      <a>
-                        <img
-                          src="/assets/imgs/authors/author-3.jpg"
-                          alt=""
-                          className="avatar"
-                        />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="author-info">
-                    <h4 className="font-weight-bold mb-20">
-                      <span className="vcard author">
-                        <span className="fn">
-                          <Link href="/author">
-                            {/* <a>{singleData.author}</a> */}
-                            author
-                          </Link>
-                        </span>
-                      </span>
-                    </h4>
-                    <h5 className="text-muted">About author</h5>
-                    <div className="author-description text-muted">
-                      You should write because you love the shape of stories and
-                      sentences and the creation of different words on a page.
-                    </div>
-                    <Link href="/author">
-                      <a className="author-bio-link mb-md-0 mb-3">
-                        View all posts ({/* {singleData.totalPost} */}
-                        something here)
-                      </a>
-                    </Link>
-                    <div className="author-social">
-                      <ul className="author-social-icons">
-                        <li className="author-social-link-facebook">
-                          <Link href="/#">
-                            <a target="_blank">
-                              <i className="ti-facebook"></i>
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="author-social-link-twitter">
-                          <Link href="/#">
-                            <a target="_blank">
-                              <i className="ti-twitter-alt"></i>
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="author-social-link-pinterest">
-                          <Link href="/#">
-                            <a target="_blank">
-                              <i className="ti-pinterest"></i>
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="author-social-link-instagram">
-                          <Link href="/#">
-                            <a target="_blank">
-                              <i className="ti-instagram"></i>
-                            </a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+
                 {/* <!--related posts--> */}
                 <div className="related-posts">
                   <div className="post-module-3">
@@ -629,7 +475,7 @@ const SingleVendor = () => {
                   </div>
                 </div>
                 {/* <!--Comments--> */}
-                <div className="comments-area">
+                {/* <div className="comments-area">
                   <div className="widget-header-2 position-relative mb-30">
                     <h5 className="mt-5 mb-30">Comments</h5>
                   </div>
@@ -704,9 +550,9 @@ const SingleVendor = () => {
                         ))}
                     </div>
                   ))}
-                </div>
+                </div> */}
                 {/* <!--comment form--> */}
-                <div className="comment-form wow fadeIn animated">
+                {/* <div className="comment-form wow fadeIn animated">
                   <div className="widget-header-2 position-relative mb-30">
                     <h5 className="mt-5 mb-30">Leave a Reply</h5>
                   </div>
@@ -771,7 +617,7 @@ const SingleVendor = () => {
                       </button>
                     </div>
                   </form>
-                </div>
+                </div> */}
               </article>
             </div>
             {/* <!--container--> */}
