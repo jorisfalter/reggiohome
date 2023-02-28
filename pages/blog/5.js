@@ -34,7 +34,7 @@ const SingleVendor = () => {
               <div className="entry-header entry-header-style-1 mb-50 pt-50">
                 <h1 className="entry-title mb-50 font-weight-900">
                   {/* {singleData.title} */}
-                  Running marathons while freelancing and building travel apps
+                  Running marathons and building travel apps!
                 </h1>
                 <div className="row"></div>
               </div>
@@ -43,172 +43,118 @@ const SingleVendor = () => {
                 <img
                   className="border-radius-10"
                   src={`/assets/imgs/news/1-icebath.jpg`}
-                  alt="post-title"
+                  alt="icebath"
                   height="300px"
                 />
               </figure>
               {/* <!--figure--> */}
               <article className="entry-wraper mb-50">
-                <div className="excerpt mb-30">
-                  <p>This is my template text.</p>
-                </div>
-                <div className="entry-main-content dropcap wow fadeIn animated">
-                  {/* <p>It's going to be amazing.</p> */}
-                  <hr className="wp-block-separator is-style-dots" />
-                  <p>
-                    Thanks sniffed in hello after in foolhardy and some far
-                    purposefully much one at the much conjointly leapt skimpily
-                    that quail sheep some goodness
-                    <Link href="/#">
-                      <a>nightingale</a>
-                    </Link>
-                    the instead exited expedient up far ouch mellifluous
-                    altruistic and and lighted more instead much when ferret but
-                    the.
+                <div className="entry-main-content wow fadeIn animated">
+                  <p className="question excerpt">
+                    Hello! Who are you and what business did you start?
                   </p>
-                  {/* <figure className="wp-block-gallery columns-3 wp-block-image">
-                    <ul className="blocks-gallery-grid">
-                      <li className="blocks-gallery-item">
-                        <Link href="/#">
-                          <a>
-                            <img
-                              className="border-radius-5"
-                              src="/assets/imgs/news/thumb-2.jpg"
-                              alt=""
-                            />
-                          </a>
-                        </Link>
-                      </li>
-                      <li className="blocks-gallery-item">
-                        <Link href="/#">
-                          <a>
-                            <img
-                              className="border-radius-5"
-                              src="/assets/imgs/news/thumb-3.jpg"
-                              alt=""
-                            />
-                          </a>
-                        </Link>
-                      </li>
-                      <li className="blocks-gallery-item">
-                        <Link href="/#">
-                          <a>
-                            <img
-                              className="border-radius-5"
-                              src="/assets/imgs/news/thumb-4.jpg"
-                              alt=""
-                            />
-                          </a>
-                        </Link>
-                      </li>
-                    </ul>
-                    <figcaption>
-                      <i className="ti-credit-card mr-5"></i>
-                      Image credit: Pexel
-                    </figcaption>
-                  </figure> */}
+
+                  <p>
+                    Hi, I’m Joris and I’m currently freelancing while building
+                    travel apps and a health focused website.
+                  </p>
+                  <p>
+                    I’m mostly building for fun, most of my apps are not
+                    monetizable. I might build a more commercial app in the
+                    future.
+                  </p>
+
                   <figure className="image mb-30 m-auto text-center border-radius-10">
                     <img
                       className="border-radius-10"
-                      src={`/assets/imgs/news/1-icebath.jpg`}
-                      alt="post-title"
+                      src={`/assets/imgs/news/2-marathon.jpg`}
+                      alt="marathon"
                       height="300px"
                     />
                   </figure>
-                  <hr className="section-divider" />
-                  <p>
-                    Yet more some certainly yet alas abandonedly whispered
-                    <Link href="/#">
-                      <a>intriguingly</a>
-                    </Link>
-                    <sup>
-                      <Link href="/#">
-                        <a>[2]</a>
-                      </Link>
-                    </sup>
-                    well extensive one howled talkative admonishingly below a
-                    rethought overlaid dear gosh activated less
-                    <Link href="/#">
-                      <a>however</a>
-                    </Link>
-                    hawk yet oh scratched ostrich some outside crud irrespective
-                    lightheartedly and much far amenably that the elephant since
-                    when.
+                  <p className="question excerpt">
+                    Take us through your workout routine?
                   </p>
-                  <h2>The Guitar Legends</h2>
                   <p>
-                    Furrowed this in the upset
-                    <Link href="/#">
-                      <a>some across</a>
-                    </Link>
-                    <sup>
-                      <Link href="/#">
-                        <a>[3]</a>
-                      </Link>
-                    </sup>
-                    tiger oh loaded house gosh whispered
-                    <Link href="/#">
-                      <a>faltering alas</a>
-                    </Link>
-                    <sup>
-                      <Link href="/#">
-                        <a>[4]</a>
-                      </Link>
-                    </sup>
-                    ouch cuckoo coward in scratched undid together bit
-                    fumblingly so besides salamander heron during the jeepers
-                    hello fitting jauntily much smoothly globefish darn
-                    blessedly far so along bluebird leopard and.
+                    I work out every weekday, 20 minutes in the morning. First
+                    thing after waking up. It’s either swimming, running or
+                    yoga.
+                  </p>
+                  <p>
+                    Living in Thailand, it’s amazing to swim. The outside pool
+                    is warm enough 10 out of 12 months of the year.
+                  </p>
+                  <p>
+                    Running on the contrary tends to get very hot. On Fridays I
+                    do long runs of 15 to 25 kms, in preparation for marathons,
+                    and for these I leave at 5am to make sure I’m back inside by
+                    7.30am before the sun gets too hot.
+                  </p>
+                  <p>
+                    For yoga I’m using free Youtube sessions of 20 minutes.
+                    There are so many of them these days, though I would like to
+                    take a real offline course one day to actually improve.
                   </p>
                   <blockquote>
                     <p>
-                      Integer eu faucibus
-                      <Link href="/#">
-                        <a>dolor</a>
-                      </Link>
-                      <sup>
-                        <Link href="/#">
-                          <a>[5]</a>
-                        </Link>
-                      </sup>
-                      . Ut venenatis tincidunt diam elementum imperdiet. Etiam
-                      accumsan semper nisl eu congue. Sed aliquam magna erat, ac
-                      eleifend lacus rhoncus in.
+                      I work out every weekday, 20 minutes in the morning. First
+                      thing after waking up
                     </p>
                   </blockquote>
-                  <p>
-                    Fretful human far recklessly while caterpillar well a well
-                    blubbered added one a some far whispered rampantly whispered
-                    while irksome far clung irrespective wailed more rosily and
-                    where saluted while black dear so yikes as considering
-                    recast to some crass until cow much less and rakishly
-                    overdrew consistent for by responsible oh one hypocritical
-                    less bastard hey oversaw zebra browbeat a well.
+                  <p className="question excerpt">
+                    What does your diet look like?
                   </p>
-                  <h3>Getting Crypto Rich</h3>
-                  <hr className="wp-block-separator is-style-wide" />
+                  <p>
+                    I combine Paleo with Keto principles. Mostly simple veggies,
+                    fruits and meats. Keto strictly speaking doesn’t allow you
+                    to eat fruits, but this is what we humans been eating for
+                    millions of years.
+                  </p>
+                  <p>
+                    Recently I try to focus more on proteins: chicken,
+                    egg-whites, …
+                  </p>
+                  <p>I avoid refined sugars, bread, cheese, …</p>
+                  <p>I do drink milk.</p>
+                  <p>
+                    I am doing intermittent fasting to reduce my weight. I was
+                    eating from 4pm to 8pm every day, but because I’m not losing
+                    weight I’m tightening the window from 5pm to 7pm.
+                  </p>
+                  <p>
+                    It conflicts with social events on weekends so I don't do it
+                    on weekends.
+                  </p>
+                  <p>I don’t drink alcohol or coffee.</p>
+
+                  <p className="question excerpt">
+                    Do you do any other health related actions (meditation,
+                    going on retreats, …)?
+                  </p>
+                  <p>
+                    I try to meditate 15 minutes every morning. I use Tony
+                    Robbins’ priming exercise, which is probably more a
+                    visualisation, rather than a meditation.
+                  </p>
+                  <p>
+                    I did a Wim Hofman icebath workshop a year ago, and ever
+                    since I’ve been looking for other activities which bring me
+                    out of my comfort zone. Maybe a Tony Robbins event...
+                  </p>
+                  <p className="question excerpt">
+                    How do you combine it with a family life (optional)?
+                  </p>
 
                   <p>
-                    And far contrary smoked some contrary among stealthy
-                    engagingly suspiciously a cockatoo far circa sank dully lewd
-                    slick cracked llama the much gecko yikes more squirrel
-                    sniffed this and the the much within uninhibited this
-                    abominable a blubbered overdid foresaw through alas the
-                    pessimistic.
+                    The biggest challenges are being able to do the workouts in
+                    the morning when the 9 month old has had issues during the
+                    night.
                   </p>
                   <p>
-                    Gosh jaguar ostrich quail one excited dear hello and bound
-                    and the and bland moral misheard roadrunner flapped lynx far
-                    that and jeepers giggled far and far bald that roadrunner
-                    python inside held shrewdly the manatee.
-                  </p>
-                  <hr className="section-divider" />
-                  <p>
-                    Thanks sniffed in hello after in foolhardy and some far
-                    purposefully much one at the much conjointly leapt skimpily
-                    that quail sheep some goodness nightingale the instead
-                    exited expedient up far ouch mellifluous altruistic and and
-                    lighted more instead much when ferret but the.
+                    And having the mental awareness about what I’m eating. A
+                    baby puts you on a train which continuously rushes through
+                    and it’s more difficult to find a moment to step out of it
+                    and take a look at what I am doing, eating, thinking, …
                   </p>
                   {/* <!--Begin Subcrible--> */}
                   <div className="border-radius-10 border bg-white mb-30 p-30 wow fadeIn animated">
@@ -218,8 +164,7 @@ const SingleVendor = () => {
                           Become a member
                         </h5>
                         <p className="font-small">
-                          Get the latest news right in your inbox. We never
-                          spam!
+                          Sign up to get the newest articles in your inbox.
                         </p>
                       </div>
                       <div className="col-md-7">
@@ -244,13 +189,100 @@ const SingleVendor = () => {
                     </div>
                   </div>
                   {/* <!--End Subcrible--> */}
+                  <p className="question excerpt">
+                    Any specific challenges you’re training for, or any changes
+                    or improvements in your lifestyle planned?
+                  </p>
+
                   <p>
-                    Yet more some certainly yet alas abandonedly whispered
-                    intriguingly well extensive one howled talkative
-                    admonishingly below a rethought overlaid dear gosh activated
-                    less however hawk yet oh scratched ostrich some outside crud
-                    irrespective lightheartedly and much far amenably that the
-                    elephant since when.
+                    I recently did a marathon which I really enjoyed. So I’m
+                    hoping to do another one in the second half of 2023.
+                  </p>
+                  <p> I’m currently losing weight, back to 67kgs.</p>
+                  <p>I want to do a cryotherapy session this year.</p>
+                  <p className="question excerpt">
+                    Anything specific that you learned that you would love to
+                    share?
+                  </p>
+
+                  <p>
+                    Take mental breaks. Find a time for yourself every day or
+                    every couple of days. As private as possible and just don’t
+                    do anything, but let thoughts come to you. Put away your
+                    phone.
+                  </p>
+                  <p>
+                    A bath is a good environment for this. It helps reflect and
+                    structure my goals.
+                  </p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <p className="question excerpt">
+                    Any tools or tracking you use (Strava, Spreadsheets, Apple
+                    Watch, …)?
+                  </p>
+                  <p>
+                    I use Strava for tracking my workout. I have a spreadsheet
+                    in which I track my daily habits and metrics (my weight,
+                    whether I did sports, if I meditated, if I did intermittent
+                    fasting, whether I read something that day, if I posted on
+                    Twitter, if I made an plan for the next day in the evening,
+                    whether I listened to something inspirational, …).
+                  </p>
+
+                  <p></p>
+                  <p></p>
+                  <p className="question excerpt">
+                    What have been the most influential books, podcasts, or
+                    other resources?
+                  </p>
+                  <p>
+                    About business, Richard Branson, Marc Benioff and Tony
+                    Robbins are very inspiring, as well as Pieter Levels.
+                  </p>
+                  <p>
+                    In health and diet, I learned a lot from the Tim Ferriss
+                    show, also Wim Hofman who talks about fasting for example.
+                    There is a lot of conflicting information out there.
+                  </p>
+                  <p></p>
+                  <p></p>
+                  <p className="question excerpt">
+                    Advice for other entrepreneurs or freelancers who want to
+                    get started or are just starting out?
+                  </p>
+                  <p>
+                    There has never been a better time to start than right now!
+                  </p>
+                  <p></p>
+                  <p></p>
+                  <p className="question excerpt">
+                    Where can we go to learn more?
+                  </p>
+                  <p>
+                    You can find me on{" "}
+                    <Link href="https://twitter.com/JorisFalter">Twitter</Link>,
+                    or my{" "}
+                    <Link href="https://jorisfalter.ck.page/">newsletter</Link>,
+                    or{" "}
+                    <Link href="https://www.jorisfalter.com">
+                      my personal site
+                    </Link>
+                    Or{" "}
+                    <Link href="https://www.strava.com/athletes/7207717">
+                      Strava
+                    </Link>
+                    .
+                  </p>
+                  <p className="question excerpt">
+                    Anyone you would recommend me interviewing?
+                  </p>
+                  <p>Definitely Greg and Tara!</p>
+                  <p>
+                    And Lynne Tye who combines Iron Mans with entrepreneurship.
+                    Or the Furlough founder who has really crazy goals for 2023.
                   </p>
                 </div>
 
@@ -259,13 +291,13 @@ const SingleVendor = () => {
                     <span>Tags: </span>
 
                     <Link href="/category">
-                      {/* <a>{singleData.tags[0]}</a> */}first link
+                      {/* <a>{singleData.tags[0]}</a> */}Marathon
                     </Link>
                     <Link href="/category">
-                      {/* <a>{singleData.tags[1]}</a> */}second link
+                      {/* <a>{singleData.tags[1]}</a> */}Freelancing
                     </Link>
                     <Link href="/category">
-                      {/* <a>{singleData.tags[2]}</a> */}third link
+                      {/* <a>{singleData.tags[2]}</a> */}Travel
                     </Link>
                   </div>
                 </div>
