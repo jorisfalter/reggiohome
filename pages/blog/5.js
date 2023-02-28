@@ -51,7 +51,7 @@ const SingleVendor = () => {
               <article className="entry-wraper mb-50">
                 <div className="entry-main-content wow fadeIn animated">
                   <p className="question excerpt">
-                    Hello! Who are you and what business did you start?
+                    Hello! Who are you and what are you working on?
                   </p>
 
                   <p>
