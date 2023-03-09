@@ -365,7 +365,7 @@ figure {
   border: 1px solid var(--mutted-border-color);
 }
 .question {
-  font-size: 1.25em !important;
+  font-size: 1.2em !important;
 }
 
 /*Color*/
@@ -1301,6 +1301,8 @@ h1.page-404 {
 }
 .entry-main-content p {
   line-height: 1.75;
+  font-size: 1.0em;
+
 }
 .entry-main-content h2 {
   line-height: 1.25;
@@ -1308,9 +1310,7 @@ h1.page-404 {
   margin-bottom: 28px;
   font-size: 1.5rem;
 }
-.entry-main-content p {
-  font-size: 1.1em;
-}
+
 .entry-main-content figure {
   margin-bottom: 30px;
   margin-top: 30px;

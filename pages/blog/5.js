@@ -81,19 +81,19 @@ const SingleVendor = () => {
                     yoga.
                   </p>
                   <p>
-                    Living in Thailand, it’s amazing to swim. The outside pool
-                    is warm enough 10 out of 12 months of the year.
+                    I live in Thailand, it’s amazing to swim. The outside pool
+                    is warm enough 10 months of the year.
                   </p>
                   <p>
-                    Running on the contrary tends to get very hot. On Fridays I
-                    do long runs of 15 to 25 kms, in preparation for marathons,
-                    and for these I leave at 5am to make sure I’m back inside by
-                    7.30am before the sun gets too hot.
+                    Running on the contrary gets very hot. On Fridays I do long
+                    runs of 15 to 25 kms, in preparation for marathons, and for
+                    these I leave at 5am to make sure I’m back inside by 7.30am
+                    before the sun gets too hot.
                   </p>
                   <p>
                     For yoga I’m using free Youtube sessions of 20 minutes.
-                    There are so many of them these days, though I would like to
-                    take a real offline course one day to actually improve.
+                    There are so many these days, though I would like to take a
+                    real offline course one day to actually improve.
                   </p>
                   <blockquote>
                     <p>
@@ -105,10 +105,10 @@ const SingleVendor = () => {
                     What does your diet look like?
                   </p>
                   <p>
-                    I combine Paleo with Keto principles. Mostly simple veggies,
-                    fruits and meats. Keto strictly speaking doesn’t allow you
-                    to eat fruits, but this is what we humans been eating for
-                    millions of years.
+                    I combine Paleo with Keto principles. Mostly veggies, fruits
+                    and meats. Keto strictly speaking doesn’t allow you to eat
+                    fruits, but this is what we humans been eating for millions
+                    of years.
                   </p>
                   <p>
                     Recently I try to focus more on proteins: chicken,
@@ -142,19 +142,19 @@ const SingleVendor = () => {
                     out of my comfort zone. Maybe a Tony Robbins event...
                   </p>
                   <p className="question excerpt">
-                    How do you combine it with a family life (optional)?
+                    How do you combine it with a family life?
                   </p>
 
                   <p>
-                    The biggest challenges are being able to do the workouts in
-                    the morning when the 9 month old has had issues during the
-                    night.
+                    The two biggest challenges are being able to do the workouts
+                    in the morning when the 9 month old has had issues during
+                    the night.
                   </p>
                   <p>
                     And having the mental awareness about what I’m eating. A
                     baby puts you on a train which continuously rushes through
-                    and it’s more difficult to find a moment to step out of it
-                    and take a look at what I am doing, eating, thinking, …
+                    and it’s more difficult to find a moment to step out and
+                    take a look at what I am doing, eating, thinking, …
                   </p>
                   {/* <!--Begin Subcrible--> */}
                   <div className="border-radius-10 border bg-white mb-30 p-30 wow fadeIn animated">
@@ -195,11 +195,20 @@ const SingleVendor = () => {
                   </p>
 
                   <p>
-                    I recently did a marathon which I really enjoyed. So I’m
-                    hoping to do another one in the second half of 2023.
+                    I recently did a marathon which I really enjoyed. I’m
+                    intending to do another one in the second half of 2023.
+                  </p>
+                  <p>
+                    I want to be able to do a Front Hand Spring, and chain them
+                    together. I've been practicing for a while now.{" "}
                   </p>
                   <p> I’m currently losing weight, back to 67kgs.</p>
-                  <p>I want to do a cryotherapy session this year.</p>
+                  <p>And I want to do a cryotherapy session this year.</p>
+                  <p>
+                    On the longer term, I would like to climb the Matterhorn,
+                    ski the Haute Route, and do an unspecified long distance
+                    cycling or horseriding challenge!{" "}
+                  </p>
                   <p className="question excerpt">
                     Anything specific that you learned that you would love to
                     share?
@@ -264,13 +273,13 @@ const SingleVendor = () => {
                   <p>
                     You can find me on{" "}
                     <Link href="https://twitter.com/JorisFalter">Twitter</Link>,
-                    or my{" "}
+                    my{" "}
                     <Link href="https://jorisfalter.ck.page/">newsletter</Link>,
-                    or{" "}
+                    my{" "}
                     <Link href="https://www.jorisfalter.com">
-                      my personal site
+                      personal site
                     </Link>
-                    Or{" "}
+                    or{" "}
                     <Link href="https://www.strava.com/athletes/7207717">
                       Strava
                     </Link>
@@ -279,10 +288,18 @@ const SingleVendor = () => {
                   <p className="question excerpt">
                     Anyone you would recommend me interviewing?
                   </p>
-                  <p>Definitely Greg and Tara!</p>
                   <p>
-                    And Lynne Tye who combines Iron Mans with entrepreneurship.
-                    Or the Furlough founder who has really crazy goals for 2023.
+                    I have two friends, Greg and Tara, who are both working in
+                    the freelance and entrepreneurship scene, and combine it
+                    with living healthy.!
+                  </p>
+                  <p>
+                    As well as Lynne Tye who combines Iron Mans with
+                    entrepreneurship.
+                  </p>
+                  <p>
+                    Or the Furlough founder who had some really challenging
+                    goals for 2023 in his newsletter.
                   </p>
                 </div>
 
