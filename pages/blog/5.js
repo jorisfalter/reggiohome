@@ -278,7 +278,7 @@ const SingleVendor = () => {
                     my{" "}
                     <Link href="https://www.jorisfalter.com">
                       personal site
-                    </Link>
+                    </Link>{" "}
                     or{" "}
                     <Link href="https://www.strava.com/athletes/7207717">
                       Strava
@@ -302,7 +302,6 @@ const SingleVendor = () => {
                     goals for 2023 in his newsletter.
                   </p>
                 </div>
-
                 <div className="entry-bottom mt-50 mb-30 wow fadeIn animated">
                   <div className="tags">
                     <span>Tags: </span>
@@ -318,7 +317,11 @@ const SingleVendor = () => {
                     </Link>
                   </div>
                 </div>
-                <div className="single-social-share clearfix wow fadeIn animated">
+
+                {/* ////////////////////////// */}
+                {/* useful! - Social media shares*/}
+                {/* remove pinterest, add whatsapp, or other  */}
+                {/* <div className="single-social-share clearfix wow fadeIn animated">
                   <ul className="header-social-network d-inline-block list-inline float-md-right mt-md-0 mt-4">
                     <li className="list-inline-item text-muted">
                       <span>Share this:</span>
@@ -354,10 +357,12 @@ const SingleVendor = () => {
                       </Link>
                     </li>
                   </ul>
-                </div>
+                </div> */}
 
+                {/* //////////////////////// */}
+                {/* usefull - related posts! */}
                 {/* <!--related posts--> */}
-                <div className="related-posts">
+                {/* <div className="related-posts">
                   <div className="post-module-3">
                     <div className="widget-header-2 position-relative mb-30">
                       <h5 className="mt-5 mb-30">Related posts</h5>
@@ -457,7 +462,7 @@ const SingleVendor = () => {
                       ))}
                     </div>
                   </div>
-                </div>
+                </div> */}
                 {/* <!--More posts--> */}
                 <div className="single-more-articles border-radius-5">
                   <div className="widget-header-2 position-relative mb-30">
