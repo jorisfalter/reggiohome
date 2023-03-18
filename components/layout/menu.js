@@ -62,7 +62,7 @@ const Menu = ({ addClass }) => {
                     <a>Travel</a>
                   </Link>
                 </li>
-                <li className="current-item has-mega-menu">
+                {/* <li className="current-item has-mega-menu">
                   <Link href="#">
                     <a>Mega Menu</a>
                   </Link>
@@ -216,7 +216,7 @@ const Menu = ({ addClass }) => {
                       </ul>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li>
                   <Link href="/category-grid">
                     <a>Guides</a>

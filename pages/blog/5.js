@@ -315,6 +315,9 @@ const SingleVendor = () => {
                     <Link href="/category">
                       {/* <a>{singleData.tags[2]}</a> */}Travel
                     </Link>
+                    <Link href="/category">
+                      {/* <a>{singleData.tags[2]}</a> */}Icebath
+                    </Link>
                   </div>
                 </div>
 
@@ -464,6 +467,7 @@ const SingleVendor = () => {
                   </div>
                 </div> */}
                 {/* <!--More posts--> */}
+                {/* ///// dit is niet zichtbaar */}
                 <div className="single-more-articles border-radius-5">
                   <div className="widget-header-2 position-relative mb-30">
                     <h5 className="mt-5 mb-30">You might be interested in</h5>
@@ -488,12 +492,12 @@ const SingleVendor = () => {
                           <div className="post-content media-body">
                             <h6 className="post-title mb-15 text-limit-2-row font-medium">
                               <Link href="/single">
-                                <a>The Best Time to Travel to Cambodia</a>
+                                <a>Another article 1</a>
                               </Link>
                             </h6>
                             <div className="entry-meta meta-1 float-left font-x-small text-uppercase">
-                              <span className="post-on">27 Jan</span>
-                              <span className="post-by has-dot">13k views</span>
+                              {/* <span className="post-on">27 Jan</span> */}
+                              {/* <span className="post-by has-dot">13k views</span> */}
                             </div>
                           </div>
                         </div>
@@ -513,14 +517,12 @@ const SingleVendor = () => {
                           <div className="post-content media-body">
                             <h6 className="post-title mb-15 text-limit-2-row font-medium">
                               <Link href="/single">
-                                <a>
-                                  20 Photos to Inspire You to Visit Cambodia
-                                </a>
+                                <a>Another article 2</a>
                               </Link>
                             </h6>
                             <div className="entry-meta meta-1 float-left font-x-small text-uppercase">
-                              <span className="post-on">27 August</span>
-                              <span className="post-by has-dot">14k views</span>
+                              {/* <span className="post-on">27 August</span>
+                              <span className="post-by has-dot">14k views</span> */}
                             </div>
                           </div>
                         </div>
