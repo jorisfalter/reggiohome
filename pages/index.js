@@ -40,8 +40,8 @@ function Home() {
                 </div>
                 <div className="col-lg-6 text-right d-none d-lg-block">
                   <img
-                    // src="/assets/imgs/authors/ReggioHomeFront.jpg"
-                    src="/assets/imgs/authors/featured.png"
+                    src="/assets/imgs/authors/ReggioHomeFront.jpg"
+                    // src="/assets/imgs/authors/featured.png"
                     alt=""
                   />
                 </div>
