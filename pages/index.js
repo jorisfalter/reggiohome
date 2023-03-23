@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Layout from "./../components/layout/layout";
+import Menu from "./../components/layout/menu";
 import PostCarousel1 from "./../components/slider/PostCarousel1";
 import post from "../data/post.json";
 import author from "../data/author.json";
@@ -11,50 +12,20 @@ function Home() {
           <div className="featured-1">
             <div className="container">
               <div className="row">
-                {/* <div className="col-lg-6 align-self-center">
-                  <p className="text-muted">
-                    <span
-                      className="typewrite d-inline"
-                      data-period="2000"
-                      data-type='[ " Travel Blogger. ", "Content Writter. ", "Food Guides " ]'
-                    ></span>
-                  </p>
-                  <h2>
-                    Hello, I’m <span>Joris</span>
-                  </h2>
-                  <h3 className="mb-20"> Welcome to Workout-Entrepreneur</h3>
-                  <h5 className="text-muted">
-                    Get inspired how business owners keep in shape
-                  </h5> */}
-                {/* newsletter signup */}
-                {/* <form className="input-group form-subcriber mt-30 d-flex">
-                    <input
-                      type="email"
-                      className="form-control bg-white font-small"
-                      placeholder="Enter your email"
-                    />
-                    <button className="btn bg-primary text-white" type="submit">
-                      Subscribe
-                    </button>
-                  </form> */}
-                {/* </div> */}
                 <div className="col-lg-12 text-right d-none d-lg-block">
-                  <img
-                    src="/assets/imgs/authors/ReggioHomeFront.png"
-                    // src="/assets/imgs/authors/featured.png"
-                    alt=""
-                  />
+                  <img src="/assets/imgs/authors/ReggioHomeFront.png" alt="" />
                 </div>
               </div>
             </div>
           </div>
+          {/* <Menu addClass={addClass} /> */}
+          {/* <Menu /> */}
+
           <div className="container">
             <div className="hot-tags pt-30 pb-30 font-small align-self-center">
               <div className="widget-header-3">
                 <div className="row align-self-center">
-                  <div className="col-md-4 align-self-center">
-                    {/* <h5 className="widget-title">Recent posts</h5> */}
-                  </div>
+                  <div className="col-md-4 align-self-center"></div>
                   <div className="col-md-8 text-md-right font-small align-self-center">
                     <p className="d-inline-block mr-5 mb-0">
                       <i className="elegant-icon  icon_tag_alt mr-5 text-muted"></i>
