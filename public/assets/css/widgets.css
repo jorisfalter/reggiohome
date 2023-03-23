@@ -331,7 +331,7 @@ span.has-dot::before {
 
 /*featured-slider-1*/
 .featured-1 {
-    padding: 80px 0;
+    /* padding: 80px 0; */
     background: #f1f2f3;
 }
 .featured-1 h3 {

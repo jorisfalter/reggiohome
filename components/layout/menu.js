@@ -34,222 +34,32 @@ const Menu = ({ addClass }) => {
                 {/* <li className="menu-item-has-children"> */}
                 <li>
                   <Link href="/">
-                    <a>
-                      <i className="elegant-icon icon_house_alt mr-5"></i>
-                      Home
-                    </a>
+                    <a>home</a>
                   </Link>
-                  {/* <ul className="sub-menu text-muted font-small">
-                                        <li>
-                                            <Link href="/">
-                                                <a>Home default</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/home-2">
-                                                <a>Homepage 2</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/home-3">
-                                                <a>Homepage 3</a>
-                                            </Link>
-                                        </li>
-                                    </ul> */}
                 </li>
                 <li>
                   <Link href="/category/travel">
-                    <a>Travel</a>
+                    <a>about</a>
                   </Link>
                 </li>
-                {/* <li className="current-item has-mega-menu">
-                  <Link href="#">
-                    <a>Mega Menu</a>
-                  </Link>
-                  <ul className="mega-menu">
-                    <li className="sub-mega-menu sub-mega-menu-width-22">
-                      <Link href="#">
-                        <a>Travel Blog</a>
-                      </Link>
-                      <ul>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Destinations</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Tour Guides</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Travel Food</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Hotels Booking</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Transport Review</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Travel Healthy</a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="sub-mega-menu sub-mega-menu-width-22">
-                      <Link href="#">
-                        <a>Fruit &amp; Vegetables</a>
-                      </Link>
-                      <ul>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Meat &amp; Poultry</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Fresh Vegetables</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Herbs &amp; Seasonings</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Cuts &amp; Sprouts</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Exotic Fruits &amp; Veggies</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Packaged Produce</a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="sub-mega-menu sub-mega-menu-width-22">
-                      <Link href="#">
-                        <a>Breakfast &amp; Dairy</a>
-                      </Link>
-                      <ul>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Milk &amp; Flavoured Milk</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Butter and Margarine</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Eggs Substitutes</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Marmalades</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Sour Cream</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Cheese</a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="sub-mega-menu sub-mega-menu-width-22">
-                      <Link href="#">
-                        <a>Meat &amp; Seafood</a>
-                      </Link>
-                      <ul>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Breakfast Sausage</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Dinner Sausage</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Chicken</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Sliced Deli Meat</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Wild Caught Fillets</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/category-grid">
-                            <a>Crab and Shellfish</a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li> */}
                 <li>
                   <Link href="/category-grid">
-                    <a>Guides</a>
+                    <a>blog</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/category-masonry">
-                    <a>Food</a>
+                    <a>products</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/category/hotels">
-                    <a>Hotels</a>
+                    <a>contact</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/category">
-                    <a>Review</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/category">
-                    <a>Healthy </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/category">
-                    <a>Lifestyle</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/category">
-                    <a>Blog</a>
+                  <Link href="/category/hotels">
+                    <i className="elegant-icon icon_search mr-5"></i>
                   </Link>
                 </li>
               </ul>

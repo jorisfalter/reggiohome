@@ -174,9 +174,16 @@ button.bg-primary:hover {
   border-radius: 10px;
 }
 
+.featured-1 .container{
+  padding-right:0px;
+  padding-left:0px;
+  margin-right:0px;
+}
+
 /* GENERAL */
 body {
-  font-family: "Noto Sans JP", sans-serif;
+  /* font-family: "Noto Sans JP", sans-serif; */
+  font-family: "Quicksand";
   font-weight: normal;
   font-style: normal;
   font-size: 14px;
@@ -193,7 +200,8 @@ h6,
   font-style: normal;
   font-weight: 500;
   text-transform: none;
-  font-family: "Noto Sans JP", sans-serif;
+  /* font-family: "Noto Sans JP", sans-serif; */
+  font-family:"Quicksand", sans-serif;
 }
 p {
   margin-bottom: 1.2em;
@@ -229,10 +237,10 @@ a,
   outline: none;
 }
 a {
-  color: var(--color-muted);
+  color: var(--color-dark);
 }
 a:hover {
-  color: var(--color-primary);
+  color: var(--color-muted);
 }
 a:focus,
 a:hover,
@@ -317,7 +325,7 @@ figure {
   font-size: 10px;
 }
 .font-small {
-  font-size: 12px;
+  font-size: 18px;
 }
 .font-medium {
   font-size: 14px;

@@ -11,7 +11,7 @@ function Home() {
           <div className="featured-1">
             <div className="container">
               <div className="row">
-                <div className="col-lg-6 align-self-center">
+                {/* <div className="col-lg-6 align-self-center">
                   <p className="text-muted">
                     <span
                       className="typewrite d-inline"
@@ -25,9 +25,9 @@ function Home() {
                   <h3 className="mb-20"> Welcome to Workout-Entrepreneur</h3>
                   <h5 className="text-muted">
                     Get inspired how business owners keep in shape
-                  </h5>
-                  {/* newsletter signup */}
-                  {/* <form className="input-group form-subcriber mt-30 d-flex">
+                  </h5> */}
+                {/* newsletter signup */}
+                {/* <form className="input-group form-subcriber mt-30 d-flex">
                     <input
                       type="email"
                       className="form-control bg-white font-small"
@@ -37,10 +37,10 @@ function Home() {
                       Subscribe
                     </button>
                   </form> */}
-                </div>
-                <div className="col-lg-6 text-right d-none d-lg-block">
+                {/* </div> */}
+                <div className="col-lg-12 text-right d-none d-lg-block">
                   <img
-                    src="/assets/imgs/authors/ReggioHomeFront.jpg"
+                    src="/assets/imgs/authors/ReggioHomeFront.png"
                     // src="/assets/imgs/authors/featured.png"
                     alt=""
                   />

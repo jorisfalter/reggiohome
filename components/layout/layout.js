@@ -29,6 +29,10 @@ const Layout = ({ children }) => {
           href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
           rel="stylesheet"
         />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Quicksand"
+        />
       </Head>
       <Sidebar removeClass={removeClass} />
       <Header addClass={addClass} openSearch={openSearch} />
