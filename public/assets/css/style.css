@@ -174,11 +174,43 @@ button.bg-primary:hover {
   border-radius: 10px;
 }
 
+/* MY OWN ADDITIONS*/
 .featured-1 .container{
   padding-right:0px;
   padding-left:0px;
   margin-right:0px;
+  margin-left: 0px;
+  /* position:relative; */
 }
+
+.circleForImage {
+  width: 600px;
+  height: 600px;
+  /* -webkit-border-radius: 25px;
+  -moz-border-radius: 25px; */
+  border-radius: 300px;
+  background: #f1c443;
+  /* position:absolute; */
+  display:inline-block;
+  min-width:600px;
+
+  /* float:left; */
+}
+
+.circle-container{
+  min-width:600px;
+  max-width:600px;
+  display:inline-block;
+}
+
+.reggio-home-front-pic{
+  /* position:absolute; */
+  /* float:right; */
+}
+
+/* .homepic{
+  margin:0;
+} */
 
 /* GENERAL */
 body {

@@ -13,8 +13,9 @@ const Header = ({ addClass, openSearch }) => {
                   <a>
                     <img
                       className="logo"
-                      src="/assets/imgs/theme/logo.png"
+                      src="/assets/imgs/theme/ReggioHomeLogoBlackWhite.png"
                       alt=""
+                      width="30px"
                     />
                   </a>
                 </Link>

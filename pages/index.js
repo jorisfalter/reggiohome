@@ -11,11 +11,20 @@ function Home() {
         <main>
           <div className="featured-1">
             <div className="container">
-              <div className="row">
-                <div className="col-lg-12 text-right d-none d-lg-block">
-                  <img src="/assets/imgs/authors/ReggioHomeFront.png" alt="" />
-                </div>
+              {/* <div className="row homepic"> */}
+              {/* <div className="col-lg-12 text-right d-none d-lg-block"> */}
+              <div class="circle-container">
+                <div class="circleForImage"></div>
               </div>
+
+              <img
+                class="reggio-home-front-pic"
+                src="/assets/imgs/authors/ReggioHomeFront.png"
+                alt=""
+              />
+
+              {/* </div> */}
+              {/* </div> */}
             </div>
           </div>
           {/* <Menu addClass={addClass} /> */}
