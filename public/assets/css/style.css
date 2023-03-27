@@ -206,6 +206,9 @@ button.bg-primary:hover {
 .reggio-home-front-pic{
   /* position:absolute; */
   /* float:right; */
+  /* text-align:center; */
+  margin:auto;
+  display:block;
 }
 
 /* .homepic{

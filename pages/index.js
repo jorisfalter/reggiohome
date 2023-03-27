@@ -13,7 +13,7 @@ function Home() {
             <div className="container">
               {/* <div className="row homepic"> */}
               {/* <div className="col-lg-12 text-right d-none d-lg-block"> */}
-              <div class="circle-container">
+              {/* <div class="circle-container">
                 <div class="circleForImage"></div>
               </div>
 
@@ -21,7 +21,14 @@ function Home() {
                 class="reggio-home-front-pic"
                 src="/assets/imgs/authors/ReggioHomeFront.png"
                 alt=""
-              />
+              /> */}
+              <div>
+                <img
+                  class="reggio-home-front-pic"
+                  src="/assets/imgs/authors/ReggioHomeFrontFull.png"
+                  alt=""
+                />
+              </div>
 
               {/* </div> */}
               {/* </div> */}
