@@ -22,7 +22,7 @@ function Home() {
                 src="/assets/imgs/authors/ReggioHomeFront.png"
                 alt=""
               /> */}
-              <div>
+              <div class="reggio-home-front-pic-div">
                 <img
                   class="reggio-home-front-pic"
                   src="/assets/imgs/authors/ReggioHomeFrontFull.png"

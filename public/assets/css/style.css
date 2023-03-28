@@ -180,36 +180,35 @@ button.bg-primary:hover {
   padding-left:0px;
   margin-right:0px;
   margin-left: 0px;
-  /* position:relative; */
+  max-width: 100%;
+  background: #fff404;
+
 }
 
-.circleForImage {
+/* .circleForImage {
   width: 600px;
   height: 600px;
-  /* -webkit-border-radius: 25px;
-  -moz-border-radius: 25px; */
   border-radius: 300px;
   background: #f1c443;
-  /* position:absolute; */
   display:inline-block;
-  min-width:600px;
+} */
 
-  /* float:left; */
-}
-
-.circle-container{
+/* .circle-container{
   min-width:600px;
   max-width:600px;
   display:inline-block;
-}
+} */
 
 .reggio-home-front-pic{
-  /* position:absolute; */
-  /* float:right; */
-  /* text-align:center; */
   margin:auto;
   display:block;
 }
+
+.reggio-home-front-pic-div{
+  margin:auto;
+}
+
+
 
 /* .homepic{
   margin:0;
