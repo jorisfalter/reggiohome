@@ -202,13 +202,12 @@ button.bg-primary:hover {
 .reggio-home-front-pic{
   margin:auto;
   display:block;
+  max-height: 550px;
 }
 
 .reggio-home-front-pic-div{
   margin:auto;
 }
-
-
 
 /* .homepic{
   margin:0;
