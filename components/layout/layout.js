@@ -33,6 +33,10 @@ const Layout = ({ children }) => {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Quicksand"
         />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Caveat"
+        />
       </Head>
       <Sidebar removeClass={removeClass} />
       <Header addClass={addClass} openSearch={openSearch} />

@@ -8,15 +8,16 @@ const Header = ({ addClass, openSearch }) => {
         <div className="header-top">
           <div className="container">
             <div className="row pt-10 pb-10">
-              <div className="col-md-3 col-xs-6">
+              <div className="col-md-3 col-xs-6 logo-parent-div">
                 <Link href="/">
                   <a>
                     <img
                       className="logo"
                       src="/assets/imgs/theme/ReggioHomeLogoBlackWhite.png"
                       alt=""
-                      width="30px"
+                      width="40px"
                     />
+                    <span className="logoName">Reggio Home</span>
                   </a>
                 </Link>
               </div>

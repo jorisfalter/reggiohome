@@ -185,19 +185,19 @@ button.bg-primary:hover {
 
 }
 
-/* .circleForImage {
-  width: 600px;
-  height: 600px;
-  border-radius: 300px;
-  background: #f1c443;
-  display:inline-block;
-} */
+.logo-parent-div{
+  position:relative
+}
 
-/* .circle-container{
-  min-width:600px;
-  max-width:600px;
-  display:inline-block;
-} */
+.logoName{
+  padding-left:10px;
+  font-family: "Caveat";
+  font-size: 30px;
+  position:absolute;
+  bottom:3px;
+
+
+}
 
 .reggio-home-front-pic{
   margin:auto;
@@ -209,9 +209,6 @@ button.bg-primary:hover {
   margin:auto;
 }
 
-/* .homepic{
-  margin:0;
-} */
 
 /* GENERAL */
 body {
