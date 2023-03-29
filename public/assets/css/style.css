@@ -181,8 +181,15 @@ button.bg-primary:hover {
   margin-right:0px;
   margin-left: 0px;
   max-width: 100%;
-  background: #fff404;
+}
 
+.reggio-home-front-pic-div{
+  background: #fff404;
+}
+
+.intro-section{
+  margin-top:10px;
+  margin-bottom:10px;
 }
 
 .logo-parent-div{
@@ -209,6 +216,17 @@ button.bg-primary:hover {
   margin:auto;
 }
 
+.introtext{
+  font-family: "Caveat";
+  font-size: 100px;
+  padding-top: 20px;
+}
+
+.introparagraph{
+  font-family: "Avenir";
+  font-size: 16px;
+
+}
 
 /* GENERAL */
 body {

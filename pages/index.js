@@ -11,17 +11,8 @@ function Home() {
         <main>
           <div className="featured-1">
             <div className="container">
-              {/* <div className="row homepic"> */}
-              {/* <div className="col-lg-12 text-right d-none d-lg-block"> */}
-              {/* <div class="circle-container">
-                <div class="circleForImage"></div>
-              </div>
-
-              <img
-                class="reggio-home-front-pic"
-                src="/assets/imgs/authors/ReggioHomeFront.png"
-                alt=""
-              /> */}
+              {/* <div className="row"> */}
+              {/* <div className="col-lg-6 test1"> */}
               <div className="reggio-home-front-pic-div">
                 <img
                   class="reggio-home-front-pic"
@@ -29,42 +20,50 @@ function Home() {
                   alt=""
                 />
               </div>
-
               {/* </div> */}
+              {/* <div className="col-lg-6 test2"></div> */}
               {/* </div> */}
             </div>
           </div>
           {/* <Menu addClass={addClass} /> */}
           {/* <Menu /> */}
 
-          <div className="container">
-            <div className="hot-tags pt-30 pb-30 font-small align-self-center">
-              <div className="widget-header-3">
-                <div className="row align-self-center">
-                  <div className="col-md-4 align-self-center"></div>
-                  <div className="col-md-8 text-md-right font-small align-self-center">
-                    <p className="d-inline-block mr-5 mb-0">
-                      <i className="elegant-icon  icon_tag_alt mr-5 text-muted"></i>
-                      Tags:
-                    </p>
-                    <ul className="list-inline d-inline-block tags">
-                      <li className="list-inline-item">
-                        <a href="#"># Marathon</a>
-                      </li>
-                      <li className="list-inline-item">
-                        <a href="#"># Freelance</a>
-                      </li>
-                      <li className="list-inline-item">
-                        <a href="#"># Travel</a>
-                      </li>
-                      <li className="list-inline-item">
-                        <a href="#"># Icebath</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+          <div className="container intro-section">
+            <div className="row">
+              <div class="col-md-8 introparagraph ">
+                <h1 class="introtext">Welcome</h1>
+                <p>
+                  We are passionate in bringing Reggio Emilia inspired learning
+                  to your home!{" "}
+                </p>
+
+                <p>
+                  Our goals is to provide you with valuable resources, practical
+                  tips and individual support on implementing this innovative
+                  approach in your home environment.{" "}
+                </p>
+
+                <p>
+                  Although our platform is still under construction, we are
+                  thrilled to offer you the opportunity to sign up for our
+                  newsletter and stay up-to-date on the latest information and
+                  updates.{" "}
+                </p>
+
+                <p>
+                  Thank you for you interest, and we look forward to sharing our
+                  knowledge with you soon!
+                </p>
+              </div>
+              <div className="col-md-4">
+                <img
+                  src="/assets/imgs/theme/ReggioHomeLogoBlackWhite.png"
+                  alt=""
+                />
               </div>
             </div>
+          </div>
+          <div className="container">
             <div className="loop-grid mb-30">
               <div className="row">
                 {/* <div className="col-lg-8 mb-30">
