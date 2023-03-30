@@ -39,7 +39,7 @@ const Menu = ({ addClass }) => {
                       alt=""
                       width="40px"
                     />
-                    <span className="logoName">Reggio Home</span>
+                    {/* <span className="logoName">Reggio Home</span> */}
                   </a>
                 </Link>
                 {/* <li className="menu-item-has-children"> */}
