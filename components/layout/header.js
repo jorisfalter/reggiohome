@@ -11,12 +11,12 @@ const Header = ({ addClass, openSearch }) => {
               <div className="col-md-3 col-xs-6 logo-parent-div">
                 <Link href="/">
                   <a>
-                    <img
+                    {/* <img
                       className="logo"
                       src="/assets/imgs/theme/ReggioHomeLogoBlackWhite.png"
                       alt=""
                       width="40px"
-                    />
+                    /> */}
                     <span className="logoName">Reggio Home</span>
                   </a>
                 </Link>

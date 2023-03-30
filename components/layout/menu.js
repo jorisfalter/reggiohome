@@ -31,6 +31,12 @@ const Menu = ({ addClass }) => {
           <div className="main-nav float-left ">
             <nav>
               <ul className="main-menu d-none d-lg-inline font-small">
+                <img
+                  className="logo"
+                  src="/assets/imgs/theme/ReggioHomeLogoBlackWhite.png"
+                  alt=""
+                  width="40px"
+                />
                 {/* <li className="menu-item-has-children"> */}
                 <li>
                   <Link href="/">

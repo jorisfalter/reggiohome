@@ -63,6 +63,11 @@ function Home() {
               </div>
             </div>
           </div>
+
+          <div className="container newsletter-section">
+            Sign up for newsletter
+          </div>
+
           <div className="container">
             <div className="loop-grid mb-30">
               <div className="row">
