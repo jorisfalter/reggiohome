@@ -48,7 +48,7 @@ const Layout = ({ children }) => {
 
       {children}
 
-      <Bottom />
+      {/* <Bottom /> */}
       <Footer removeClass={removeClass} />
       <BackToTop />
     </>

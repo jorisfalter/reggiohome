@@ -169,7 +169,8 @@ const Footer = ({ removeClass }) => {
           </div>
           <div className="footer-copy-right pt-30 mt-20 wow fadeInUp animated">
             <p className="float-md-left font-small text-muted">
-              © 2023 HealthyEntrepreneur{" "}
+              © {new Date().getFullYear()} Reggio Home - Since 2023 your go-to
+              source for Reggio Emilia knowledge!{" "}
             </p>
             {/* <p className="float-md-right font-small text-muted">
               Design by{" "}
