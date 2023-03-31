@@ -135,7 +135,7 @@ const Footer = ({ removeClass }) => {
                 <div className="widget-header-2 position-relative mb-30">
                   <h5 className="mt-5 mb-30">Newsletter</h5>
                 </div>
-                <div className="newsletter">
+                {/* <div className="newsletter">
                   <p className="font-medium">Join our community.</p>
                   <form className="input-group form-subcriber mt-30 d-flex">
                     <input
@@ -146,31 +146,15 @@ const Footer = ({ removeClass }) => {
                     <button className="btn bg-primary text-white" type="submit">
                       Subscribe
                     </button>
-                    {/* <label className="mt-20">
-                      {" "}
-                      <input
-                        className="mr-5"
-                        name="name"
-                        type="checkbox"
-                        value="1"
-                        required=""
-                      />{" "}
-                      I agree to the{" "}
-                      <Link href="/#">
-                        <a href="/#" target="_blank">
-                          terms &amp; conditions
-                        </a>
-                      </Link>{" "}
-                    </label> */}
                   </form>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
           <div className="footer-copy-right pt-30 mt-20 wow fadeInUp animated">
             <p className="float-md-left font-small text-muted">
               © {new Date().getFullYear()} Reggio Home - Since 2023 your go-to
-              source for Reggio Emilia knowledge!{" "}
+              source for Reggio Emilia inspired learning!{" "}
             </p>
             {/* <p className="float-md-right font-small text-muted">
               Design by{" "}

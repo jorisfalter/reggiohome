@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Layout from "./../components/layout/layout";
 import Menu from "./../components/layout/menu";
-import PostCarousel1 from "./../components/slider/PostCarousel1";
+// import PostCarousel1 from "./../components/slider/PostCarousel1";
 import post from "../data/post.json";
-import author from "../data/author.json";
+// import author from "../data/author.json";
 function Home() {
   return (
     <>
@@ -65,13 +65,25 @@ function Home() {
           </div>
 
           <div className="container newsletter-section">
-            Sign up for newsletter
+            <div className="newsletter">
+              <p className="font-medium">Join our community.</p>
+              {/* <form className="input-group form-subcriber mt-30 d-flex">
+                <input
+                  type="email"
+                  className="form-control bg-white font-small"
+                  placeholder="Enter your email"
+                />
+                <button className="btn bg-primary text-white" type="submit">
+                  Subscribe
+                </button>
+              </form> */}
+            </div>
           </div>
 
           <div className="container">
             <div className="loop-grid mb-30">
               <div className="row">
-                {post.slice(1, 4).map((item, i) => (
+                {post.slice(0, 2).map((item, i) => (
                   <article
                     className="col-lg-4 col-md-6 mb-30 wow fadeInUp animated"
                     data-wow-delay="0.2s"

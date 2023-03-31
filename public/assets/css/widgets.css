@@ -542,7 +542,9 @@ span.has-dot::before {
 
 /*post-card-1*/
 .post-card-1 {
-    border: 1px solid var(--secondary-border-color);
+    /* border: 1px solid var(--secondary-border-color); */
+    border: 2px solid ;
+    border-color: #fff404;
     z-index: 12;
     transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
     position: relative;

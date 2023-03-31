@@ -1,19 +1,19 @@
 [
 	{
 		"id": 1,
-		"img": "news-11.jpg",
-		"category": "food",
-		"title": "Helpful Tips for Working from Home as a Freelancer",
-		"author": "BARBARA CARTLAND",
-		"date": "7 August",
-		"readTime": "11",
-		"desc": "Proin vitae placerat quam. Ut sodales eleifend urna, in condimentum tortor ultricies eu. Nunc auctor iaculis dolorProin vitae placerat quam. Proin vitae placerat quam.",
-		"views": "3k",
-		"tags": ["Deer", "Nature", "Conserve"],
-		"comments": "182",
-		"likes": "268",
-		"rating": "9",
-		"totalPost": "25"
+		"img": "1-lighttable.jpg",
+		"category": "Introduction",
+		"title": "What is Reggio Emilia?",
+		"author": "",
+		"date": "30 March 2023",
+		"readTime": "",
+		"desc": "",
+		"views": "",
+		"tags": ["", "", ""],
+		"comments": "",
+		"likes": "",
+		"rating": "",
+		"totalPost": ""
 	},
 	{
 		"id": 2,

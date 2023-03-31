@@ -191,7 +191,12 @@ button.bg-primary:hover {
   background: #fff404;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-align: center;
+}
 
+.input-group{
+  margin:auto;
+  display:block;
 }
 
 .intro-section{
