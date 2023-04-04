@@ -81,6 +81,9 @@ function Home() {
           </div>
 
           <div className="container">
+            <Link href="/category/travel">
+              <a>All Articles</a>
+            </Link>
             <div className="loop-grid mb-30">
               <div className="row">
                 {post.slice(0, 2).map((item, i) => (
@@ -139,7 +142,7 @@ function Home() {
                         </ul>
                       </div>
                       <div className="post-content p-30">
-                        <div className="entry-meta meta-0 font-small mb-10">
+                        {/* <div className="entry-meta meta-0 font-small mb-10">
                           <Link href={`/category/${item.category}`}>
                             <a>
                               <span className="post-cat text-info">
@@ -147,7 +150,7 @@ function Home() {
                               </span>
                             </a>
                           </Link>
-                        </div>
+                        </div> */}
                         <div className="d-flex post-card-content">
                           <h5 className="post-title mb-20 font-weight-900">
                             <Link href={`/blog/${item.id}`}>
