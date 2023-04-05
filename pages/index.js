@@ -64,19 +64,23 @@ function Home() {
             </div>
           </div>
 
-          <div className="container newsletter-section">
-            <div className="newsletter">
-              <p className="font-medium">Join our community.</p>
-              {/* <form className="input-group form-subcriber mt-30 d-flex">
-                <input
-                  type="email"
-                  className="form-control bg-white font-small"
-                  placeholder="Enter your email"
-                />
-                <button className="btn bg-primary text-white" type="submit">
-                  Subscribe
-                </button>
-              </form> */}
+          <div className="newsletter-section">
+            <div className="container">
+              <div className="newsletter">
+                <p className="font-medium">Join our community.</p>
+                <form className="input-group form-subcriber mt-30 d-flex">
+                  {/* <span className="email-form"> */}
+                  <input
+                    type="email"
+                    className="form-control bg-white font-small"
+                    placeholder="Enter your email"
+                  />
+                  <button className="btn bg-primary text-white" type="submit">
+                    Subscribe
+                  </button>
+                  {/* </span> */}
+                </form>
+              </div>
             </div>
           </div>
 
@@ -86,63 +90,70 @@ function Home() {
             </Link>
             <div className="loop-grid mb-30">
               <div className="row">
-                {post.slice(0, 2).map((item, i) => (
-                  <article
-                    className="col-lg-4 col-md-6 mb-30 wow fadeInUp animated"
-                    data-wow-delay="0.2s"
-                  >
-                    <div className="post-card-1 border-radius-10 hover-up">
-                      <div
-                        className="post-thumb thumb-overlay img-hover-slide position-relative"
-                        style={{
-                          backgroundImage: `url(assets/imgs/news/${item.img})`,
-                        }}
-                      >
-                        <Link href={`/blog/${item.id}`}>
-                          <a className="img-link"></a>
-                        </Link>
+                {post
+                  .reverse()
+                  .slice(0, 2)
+                  .map((item, i) => (
+                    <article
+                      className="col-lg-4 col-md-6 mb-30 wow fadeInUp animated"
+                      data-wow-delay="0.2s"
+                    >
+                      <div className="post-card-1 border-radius-10 hover-up">
+                        <div
+                          className="post-thumb thumb-overlay img-hover-slide position-relative"
+                          style={{
+                            backgroundImage: `url(assets/imgs/news/${item.img})`,
+                          }}
+                        >
+                          <Link href={`/blog/${item.id}`}>
+                            <a className="img-link"></a>
+                          </Link>
 
-                        <ul className="social-share">
-                          <li>
-                            <Link href="#">
-                              <a>
-                                <i className="elegant-icon social_share"></i>
-                              </a>
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="#">
-                              <a
-                                className="fb"
-                                title="Share on Facebook"
-                                target="_blank"
-                              >
-                                <i className="elegant-icon social_facebook"></i>
-                              </a>
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="#">
-                              <a
-                                className="tw"
-                                target="_blank"
-                                title="Tweet now"
-                              >
-                                <i className="elegant-icon social_twitter"></i>
-                              </a>
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="#">
-                              <a className="pt" target="_blank" title="Pin it">
-                                <i className="elegant-icon social_pinterest"></i>
-                              </a>
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="post-content p-30">
-                        {/* <div className="entry-meta meta-0 font-small mb-10">
+                          <ul className="social-share">
+                            <li>
+                              <Link href="#">
+                                <a>
+                                  <i className="elegant-icon social_share"></i>
+                                </a>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="#">
+                                <a
+                                  className="fb"
+                                  title="Share on Facebook"
+                                  target="_blank"
+                                >
+                                  <i className="elegant-icon social_facebook"></i>
+                                </a>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="#">
+                                <a
+                                  className="tw"
+                                  target="_blank"
+                                  title="Tweet now"
+                                >
+                                  <i className="elegant-icon social_twitter"></i>
+                                </a>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="#">
+                                <a
+                                  className="pt"
+                                  target="_blank"
+                                  title="Pin it"
+                                >
+                                  <i className="elegant-icon social_pinterest"></i>
+                                </a>
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="post-content p-30">
+                          {/* <div className="entry-meta meta-0 font-small mb-10">
                           <Link href={`/category/${item.category}`}>
                             <a>
                               <span className="post-cat text-info">
@@ -151,20 +162,20 @@ function Home() {
                             </a>
                           </Link>
                         </div> */}
-                        <div className="d-flex post-card-content">
-                          <h5 className="post-title mb-20 font-weight-900">
-                            <Link href={`/blog/${item.id}`}>
-                              <a>{item.title}</a>
-                            </Link>
-                          </h5>
-                          <div className="entry-meta meta-1 float-left font-x-small text-uppercase">
-                            <span className="post-on">{item.date}</span>
+                          <div className="d-flex post-card-content">
+                            <h5 className="post-title mb-20 font-weight-900">
+                              <Link href={`/blog/${item.id}`}>
+                                <a>{item.title}</a>
+                              </Link>
+                            </h5>
+                            <div className="entry-meta meta-1 float-left font-x-small text-uppercase">
+                              <span className="post-on">{item.date}</span>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </article>
-                ))}
+                    </article>
+                  ))}
               </div>
             </div>
           </div>
