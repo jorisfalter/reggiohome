@@ -63,11 +63,11 @@ const Menu = ({ addClass }) => {
                     <a>products</a>
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/category/hotels">
                     <a>contact</a>
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link href="/category/hotels">
                     <i className="elegant-icon icon_search mr-5"></i>

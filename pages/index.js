@@ -67,27 +67,30 @@ function Home() {
           <div className="newsletter-section">
             <div className="container">
               <div className="newsletter">
-                <p className="font-medium">Join our community.</p>
-                <form className="input-group form-subcriber mt-30 d-flex">
-                  {/* <span className="email-form"> */}
-                  <input
-                    type="email"
-                    className="form-control bg-white font-small"
-                    placeholder="Enter your email"
-                  />
-                  <button className="btn bg-primary text-white" type="submit">
-                    Subscribe
-                  </button>
-                  {/* </span> */}
-                </form>
+                <p className="font-large">Join our community.</p>
+                <div className="newsletter-form">
+                  <form className="input-group form-subcriber mt-30 d-flex">
+                    <input
+                      type="email"
+                      className="form-control bg-white font-small"
+                      placeholder="Enter your email"
+                    />
+                    <button className="btn bg-primary text-white" type="submit">
+                      Subscribe
+                    </button>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
 
           <div className="container">
-            <Link href="/category/travel">
-              <a>All Articles</a>
-            </Link>
+            <div className="all-articles mt-30 mb-30">
+              <Link href="/category/travel">
+                <a>All Articles</a>
+              </Link>
+            </div>
+
             <div className="loop-grid mb-30">
               <div className="row">
                 {post
