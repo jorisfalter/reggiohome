@@ -75,7 +75,10 @@ function Home() {
                       className="form-control bg-white font-small"
                       placeholder="Enter your email"
                     />
-                    <button className="btn bg-primary text-white" type="submit">
+                    <button
+                      className="btn submit-email-newsletter text-white"
+                      type="submit"
+                    >
                       Subscribe
                     </button>
                   </form>
