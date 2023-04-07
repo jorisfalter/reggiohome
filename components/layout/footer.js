@@ -60,7 +60,7 @@ const Footer = ({ removeClass }) => {
                 </div>
                 <ul className="font-small">
                   <li className="cat-item cat-item-2">
-                    <Link href="/#">
+                    <Link href="/page-about">
                       <a>About us</a>
                     </Link>
                   </li>
@@ -135,19 +135,22 @@ const Footer = ({ removeClass }) => {
                 <div className="widget-header-2 position-relative mb-30">
                   <h5 className="mt-5 mb-30">Newsletter</h5>
                 </div>
-                {/* <div className="newsletter">
+                <div className="newsletter">
                   <p className="font-medium">Join our community.</p>
                   <form className="input-group form-subcriber mt-30 d-flex">
                     <input
                       type="email"
-                      className="form-control bg-white font-small"
+                      className="form-control bg-white font-small form-control-footer"
                       placeholder="Enter your email"
                     />
-                    <button className="btn bg-primary text-white" type="submit">
+                    <button
+                      className="btn submit-email-newsletter-footer text-black"
+                      type="submit"
+                    >
                       Subscribe
                     </button>
                   </form>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>

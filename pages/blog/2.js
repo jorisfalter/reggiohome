@@ -142,40 +142,6 @@ const SingleVendor = () => {
                     first to know about our new projects.
                   </p>
 
-                  {/* <!--Begin Subcrible--> */}
-                  <div className="border-radius-10 border bg-white mb-30 p-30 wow fadeIn animated">
-                    <div className="row justify-content-between">
-                      <div className="col-md-5 mb-2 mb-md-0">
-                        <h5 className="font-weight-bold secondfont mb-30 mt-0">
-                          Become a member
-                        </h5>
-                        <p className="font-small">
-                          Sign up to get the newest articles in your inbox.
-                        </p>
-                      </div>
-                      <div className="col-md-7">
-                        <div className="row">
-                          <div className="col-md-12">
-                            <input
-                              type="text"
-                              className="form-control"
-                              placeholder="Enter your e-mail address"
-                            />
-                          </div>
-                          <div className="col-md-12 mt-2">
-                            <button
-                              type="submit"
-                              className="btn btn-primary btn-block"
-                            >
-                              Subscribe
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* <!--End Subcrible--> */}
-
                   <p>
                     <i>
                       Reggio Emilia inspired education is an exciting and
@@ -204,24 +170,13 @@ const SingleVendor = () => {
                   <p></p>
                   <p></p>
                 </div>
-                <div className="entry-bottom mt-50 mb-30 wow fadeIn animated">
+                {/* <div className="entry-bottom mt-50 mb-30 wow fadeIn animated">
                   <div className="tags">
                     <span>Tags: </span>
 
-                    <Link href="/category">
-                      {/* <a>{singleData.tags[0]}</a> */}Something
-                    </Link>
-                    <Link href="/category">
-                      {/* <a>{singleData.tags[1]}</a> */}Something
-                    </Link>
-                    <Link href="/category">
-                      {/* <a>{singleData.tags[2]}</a> */}Something
-                    </Link>
-                    <Link href="/category">
-                      {/* <a>{singleData.tags[2]}</a> */}Something
-                    </Link>
+                    <Link href="/category">Something</Link>
                   </div>
-                </div>
+                </div> */}
 
                 {/* ////////////////////////// */}
                 {/* useful! - Social media shares*/}

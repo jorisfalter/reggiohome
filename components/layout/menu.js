@@ -49,17 +49,17 @@ const Menu = ({ addClass }) => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/category/travel">
+                  <Link href="/page-about">
                     <a>about</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/category-grid">
+                  <Link href="/blog">
                     <a>blog</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/category-masonry">
+                  <Link href="/products">
                     <a>products</a>
                   </Link>
                 </li>
