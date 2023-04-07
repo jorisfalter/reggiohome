@@ -89,7 +89,7 @@ function Home() {
 
           <div className="container">
             <div className="all-articles mt-30 mb-30">
-              <Link href="/category/travel">
+              <Link href="/blog">
                 <a>All Articles</a>
               </Link>
             </div>
