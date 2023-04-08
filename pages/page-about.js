@@ -67,7 +67,7 @@ function About() {
               </p>
               <p className="font-large">Marjon - Founder Reggio Home</p>
 
-              <h3 className="mt-30">Where to find us</h3>
+              {/* <h3 className="mt-30">Where to find us</h3>
 
               <hr className="wp-block-separator is-style-wide" />
               <p>
@@ -110,7 +110,7 @@ function About() {
               </p>
               <h3 className="mt-30">Some additional title</h3>
               <hr className="wp-block-separator is-style-wide" />
-              <p>Some additional content. </p>
+              <p>Some additional content. </p> */}
             </article>
           </div>
           {/* <!--container--> */}
