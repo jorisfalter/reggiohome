@@ -12,7 +12,7 @@ const Footer = ({ removeClass }) => {
                   <h5 className="mt-5 mb-30">Find us on</h5>
                 </div>
                 <div className="textwidget">
-                  <p>Some inspirational quote here ...</p>
+                  {/* <p>Some inspirational quote here ...</p> */}
                   {/* <p>
                     <strong className="color-black">Address</strong>
                     <br />
@@ -33,19 +33,19 @@ const Footer = ({ removeClass }) => {
                       </Link>
                     </li>
                     <li className="list-inline-item">
-                      <Link href="/#">
-                        <a className="tw" target="_blank" title="Tweet now">
-                          <i className="elegant-icon social_twitter"></i>
+                      <Link href="https://www.instagram.com/reggio.home/">
+                        <a className="tw" target="_blank" title="Insta now">
+                          <i className="elegant-icon social_instagram"></i>
                         </a>
                       </Link>
                     </li>
-                    <li className="list-inline-item">
+                    {/* <li className="list-inline-item">
                       <Link href="/#">
                         <a className="pt" target="_blank" title="Pin it">
                           <i className="elegant-icon social_pinterest"></i>
                         </a>
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -62,6 +62,16 @@ const Footer = ({ removeClass }) => {
                   <li className="cat-item cat-item-2">
                     <Link href="/page-about">
                       <a>About us</a>
+                    </Link>
+                  </li>
+                  <li className="cat-item cat-item-3">
+                    <Link href="/blog">
+                      <a>Blog</a>
+                    </Link>
+                  </li>
+                  <li className="cat-item cat-item-4">
+                    <Link href="/products">
+                      <a>Products</a>
                     </Link>
                   </li>
                   {/* <li className="cat-item cat-item-4">
@@ -155,7 +165,7 @@ const Footer = ({ removeClass }) => {
             </div>
           </div>
           <div className="footer-copy-right pt-30 mt-20 wow fadeInUp animated">
-            <p className="float-md-left font-small text-muted">
+            <p className="float-md-left font-x-small text-muted">
               © {new Date().getFullYear()} Reggio Home - Since 2023 your go-to
               source for Reggio Emilia inspired learning!{" "}
             </p>

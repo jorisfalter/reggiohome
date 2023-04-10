@@ -97,7 +97,11 @@ const SingleVendor = () => {
                   </p>
 
                   <blockquote>
-                    <p>something something</p>
+                    <p>
+                      Children are capable, curious, and creative individuals
+                      who should be at the center of their own learning
+                      experiences
+                    </p>
                   </blockquote>
                   <p className="question excerpt">
                     Environment as the <i>Third Teacher</i>

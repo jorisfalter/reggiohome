@@ -91,7 +91,10 @@ const SingleVendor = () => {
                   </p>
 
                   <blockquote>
-                    <p>something something</p>
+                    <p>
+                      Children have countless ways of expressing themselves
+                      beyond just spoken or written language.
+                    </p>
                   </blockquote>
 
                   <p>
