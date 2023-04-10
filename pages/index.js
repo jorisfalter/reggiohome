@@ -88,10 +88,15 @@ function Home() {
           </div>
 
           <div className="container">
-            <div className="all-articles mt-30 mb-30">
-              <Link href="/blog">
-                <a>All Articles</a>
-              </Link>
+            <div className="row">
+              <div className="recent-blog-posts mt-15 mb-15">
+                Recent Blog Posts
+              </div>
+              <div className="all-articles mt-15 mb-15">
+                <Link href="/blog">
+                  <a>All Articles</a>
+                </Link>
+              </div>
             </div>
 
             <div className="loop-grid mb-30">
