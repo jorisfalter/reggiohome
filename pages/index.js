@@ -67,7 +67,7 @@ function Home() {
           <div className="newsletter-section">
             <div className="container">
               <div className="newsletter">
-                {/* <p className="font-large">Join our community.</p> */}
+                <p className="font-large">Join our community.</p>
                 <div className="newsletter-form">
                   <form className="input-group form-subcriber mt-30 d-flex">
                     <input

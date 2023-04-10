@@ -146,7 +146,7 @@ const Footer = ({ removeClass }) => {
                   <h5 className="mt-5 mb-30">Newsletter</h5>
                 </div>
                 <div className="newsletter">
-                  <p className="font-medium">Join our community.</p>
+                  {/* <p className="font-medium">Join our community.</p> */}
                   <form className="input-group form-subcriber mt-30 d-flex">
                     <input
                       type="email"
