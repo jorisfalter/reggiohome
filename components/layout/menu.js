@@ -45,22 +45,27 @@ const Menu = ({ addClass }) => {
                 {/* <li className="menu-item-has-children"> */}
                 <li>
                   <Link href="/">
-                    <a>home</a>
+                    <a>Home</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/page-about">
-                    <a>about</a>
+                    <a>About</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/blog">
-                    <a>blog</a>
+                    <a>Blog</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/products">
-                    <a>products</a>
+                    <a>Products</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/products">
+                    <a>Search</a>
                   </Link>
                 </li>
                 {/* <li>
