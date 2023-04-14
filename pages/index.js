@@ -68,7 +68,7 @@ function Home() {
             <div className="container">
               <div className="newsletter">
                 <p className="font-large">Join our community.</p>
-                <div className="newsletter-form">
+                {/* <div className="newsletter-form">
                   <form className="input-group form-subcriber mt-30 d-flex">
                     <input
                       type="email"
@@ -82,7 +82,15 @@ function Home() {
                       Subscribe
                     </button>
                   </form>
-                </div>
+                </div> */}
+                <iframe
+                  src="https://reggiohome.substack.com/embed"
+                  width="480"
+                  height="320"
+                  style={{ border: "1px solid #EEE", background: "white" }}
+                  frameborder="0"
+                  scrolling="no"
+                ></iframe>
               </div>
             </div>
           </div>
