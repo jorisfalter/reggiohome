@@ -67,30 +67,26 @@ function Home() {
           <div className="newsletter-section">
             <div className="container">
               <div className="newsletter">
-                <p className="font-large">Join our community.</p>
-                {/* <div className="newsletter-form">
-                  <form className="input-group form-subcriber mt-30 d-flex">
-                    <input
-                      type="email"
-                      className="form-control bg-white font-small"
-                      placeholder="Enter your email"
-                    />
-                    <button
-                      className="btn submit-email-newsletter text-white"
-                      type="submit"
-                    >
-                      Subscribe
-                    </button>
-                  </form>
-                </div> */}
-                <iframe
-                  src="https://reggiohome.substack.com/embed"
-                  width="480"
-                  height="320"
-                  style={{ border: "1px solid #EEE", background: "white" }}
-                  frameborder="0"
-                  scrolling="no"
-                ></iframe>
+                <div
+                  style={{
+                    width: "100%",
+                    maxWidth: "480px",
+                    margin: "auto",
+                    textAlign: "center",
+                  }}
+                >
+                  <p className="font-large">Join our community.</p>
+
+                  <iframe
+                    src="https://reggiohome.substack.com/embed"
+                    width="100%"
+                    height="320px"
+                    style={{ border: "1px solid #EEE", background: "white" }}
+                    frameborder="0"
+                    scrolling="no"
+                  ></iframe>
+                </div>
+                {/* </div> */}
               </div>
             </div>
           </div>
