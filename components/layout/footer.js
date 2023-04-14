@@ -3,7 +3,7 @@ import React from "react";
 const Footer = ({ removeClass }) => {
   return (
     <>
-      <footer className="pt-50 pb-20 bg-grey">
+      <footer className="pt-50 pb-20 bg-yellow">
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6">

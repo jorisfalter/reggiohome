@@ -3,7 +3,7 @@ function About() {
   return (
     <>
       <Layout>
-        <main className="bg-grey pb-30">
+        <main className=" pb-30">
           <div className="container single-content">
             <div className="entry-header entry-header-style-1 mb-50 pt-50 text-center">
               <h1 className="entry-title mb-20 font-weight-900 ">
