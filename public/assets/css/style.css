@@ -288,6 +288,19 @@ button.bg-primary:hover {
   background-color: #fff404;
 }
 
+/*Trying to get the substack element*/
+.publication-name{
+  visibility:hidden !important;
+}
+
+.publication-tagline{
+  visibility:hidden;
+}
+
+.rightButton{
+ color:yellow;
+}
+
 /* GENERAL */
 body {
   /* font-family: "Noto Sans JP", sans-serif; */
