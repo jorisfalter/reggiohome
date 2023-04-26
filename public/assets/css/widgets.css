@@ -6,7 +6,7 @@
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border-bottom: 1px solid var(--mutted-border-color);
+    /* border-bottom: 1px solid var(--mutted-border-color); */
     padding-bottom: 10px;
     position: relative;
 }

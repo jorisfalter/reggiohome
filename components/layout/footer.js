@@ -137,16 +137,17 @@ const Footer = ({ removeClass }) => {
                 </div>
               </div>
             </div> */}
+
+            {/* This is the original signup box from the footer */}
             <div className="col-lg-4 col-md-6">
               <div
                 className="sidebar-widget widget_newsletter wow fadeInUp animated mb-30"
                 data-wow-delay="0.3s"
               >
-                <div className="widget-header-2 position-relative mb-30">
+                {/* <div className="widget-header-2 position-relative mb-30">
                   <h5 className="mt-5 mb-30">Newsletter</h5>
                 </div>
                 <div className="newsletter">
-                  {/* <p className="font-medium">Join our community.</p> */}
                   <form className="input-group form-subcriber mt-30 d-flex">
                     <input
                       type="email"
@@ -160,7 +161,7 @@ const Footer = ({ removeClass }) => {
                       Subscribe
                     </button>
                   </form>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
