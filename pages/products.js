@@ -10,7 +10,6 @@ function CaregoryList() {
           {/* <!--archive header--> */}
           <div className="archive-header pt-50">
             <div className="container">
-              <h2 className="font-weight-900">Coming Soon</h2>
               <div className="breadcrumb">
                 <Link href="/">
                   <a rel="nofollow">Home</a>
@@ -22,6 +21,16 @@ function CaregoryList() {
           </div>
           <div className="pb-50">
             <div className="container">
+              <h2 className="font-weight-900">No Products ... Yet!</h2> <p></p>
+              <p>In the meantime, feel free to read our blog posts below</p>
+              <p>
+                Or sign up to the{" "}
+                <Link href={"/newsletter"}>
+                  <a className="img-link-intext">newsletter</a>
+                </Link>{" "}
+                to be kept up to date!{" "}
+              </p>
+              <p>Happy Browsing!</p>
               <div className="row">
                 <div className="col-lg-8">
                   <div className="post-module-3">

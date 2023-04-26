@@ -63,17 +63,17 @@ const Menu = ({ addClass }) => {
                     <a>Products</a>
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/products">
                     <a>Search</a>
                   </Link>
-                </li>
-
+                </li> */}
+                {/* 
                 <li>
                   <Link href="/category/hotels">
                     <i className="elegant-icon icon_search mr-5"></i>
                   </Link>
-                </li>
+                </li> */}
               </ul>
 
               {/* this is the mobile menu */}

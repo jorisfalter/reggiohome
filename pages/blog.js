@@ -146,10 +146,11 @@ function CaregoryList() {
                   </div> */}
                 </div>
 
-                {/* Most Popular */}
                 <div className="col-lg-4">
                   <div className="widget-area">
-                    <div className="sidebar-widget widget-latest-posts mb-50 wow fadeInUp animated">
+                    {/* Most Popular */}
+
+                    {/* <div className="sidebar-widget widget-latest-posts mb-50 wow fadeInUp animated">
                       <div className="widget-header-1 position-relative mb-30">
                         <h5 className="mt-5 mb-30">Most popular</h5>
                       </div>
@@ -183,10 +184,10 @@ function CaregoryList() {
                           ))}
                         </ul>
                       </div>
-                    </div>
+                    </div> */}
 
                     {/* Instagram widget  */}
-                    <div className="sidebar-widget widget_instagram wow fadeInUp animated">
+                    {/* <div className="sidebar-widget widget_instagram wow fadeInUp animated">
                       <div className="widget-header-1 position-relative mb-30">
                         <h5 className="mt-5 mb-30">Instagram</h5>
                       </div>
@@ -296,7 +297,7 @@ function CaregoryList() {
                           </li>
                         </ul>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
