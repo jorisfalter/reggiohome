@@ -33,6 +33,7 @@
         background: none;
         font-family: "Noto Sans JP", sans-serif;
         margin-top: 14px;
+        margin-bottom: 14px;
         color: var(--color-muted) !important;
     }
     .main-header .main-nav ul li > a::after{ display: none;}

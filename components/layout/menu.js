@@ -30,6 +30,7 @@ const Menu = ({ addClass }) => {
         <div className="container align-self-center position-relative">
           <div className="main-nav float-left ">
             <nav>
+              {/* this is the browser menu  */}
               <ul className="main-menu d-none d-lg-inline font-small">
                 <Link href="/">
                   <a>
@@ -42,7 +43,6 @@ const Menu = ({ addClass }) => {
                     {/* <span className="logoName">Reggio Home</span> */}
                   </a>
                 </Link>
-                {/* <li className="menu-item-has-children"> */}
                 <li>
                   <Link href="/">
                     <a>Home</a>
@@ -68,11 +68,7 @@ const Menu = ({ addClass }) => {
                     <a>Search</a>
                   </Link>
                 </li>
-                {/* <li>
-                  <Link href="/category/hotels">
-                    <a>contact</a>
-                  </Link>
-                </li> */}
+
                 <li>
                   <Link href="/category/hotels">
                     <i className="elegant-icon icon_search mr-5"></i>
@@ -80,6 +76,7 @@ const Menu = ({ addClass }) => {
                 </li>
               </ul>
 
+              {/* this is the mobile menu */}
               <div className={size < 991 ? "d-block d-lg-none" : "d-none"}>
                 <button onClick={toggleTrueFalse}>
                   <span className="menu-icon mr-10">

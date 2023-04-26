@@ -1995,7 +1995,7 @@ nav.tab-nav .nav-tabs {
 @media (max-width: 991px) {
     .main-nav {
         float: none;
-        position: absolute;
+        /* position: absolute; /*removed this to have a white header on top in mobile view*/ 
         width: unset;
         z-index: 999;
     }
