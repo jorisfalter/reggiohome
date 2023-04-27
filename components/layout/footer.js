@@ -26,7 +26,7 @@ const Footer = ({ removeClass }) => {
                   <br />
                   <ul className="header-social-network d-inline-block list-inline color-white mb-20">
                     <li className="list-inline-item">
-                      <Link href="/#">
+                      <Link href="https://www.facebook.com/profile.php?id=100089765432348">
                         <a className="fb" target="_blank" title="Facebook">
                           <i className="elegant-icon social_facebook"></i>
                         </a>
