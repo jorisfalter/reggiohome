@@ -168,21 +168,21 @@ function Home() {
                           </ul>
                         </div>
                         <div className="post-content p-30">
-                          {/* <div className="entry-meta meta-0 font-small mb-10">
-                          <Link href={`/category/${item.category}`}>
-                            <a>
-                              <span className="post-cat text-info">
-                                {item.category}
-                              </span>
-                            </a>
-                          </Link>
-                        </div> */}
                           <div className="d-flex post-card-content">
                             <h5 className="post-title mb-20 font-weight-900">
                               <Link href={`/blog/${item.id}`}>
                                 <a>{item.title}</a>
                               </Link>
                             </h5>
+                            <div className="entry-meta meta-0 font-small mb-10">
+                              <Link href={`/category/${item.category}`}>
+                                <a>
+                                  <span className="post-cat text-info">
+                                    {item.category}
+                                  </span>
+                                </a>
+                              </Link>
+                            </div>
                             <div className="entry-meta meta-1 float-left font-x-small text-uppercase">
                               <span className="post-on">{item.date}</span>
                             </div>
