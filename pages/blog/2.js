@@ -39,14 +39,14 @@ const SingleVendor = () => {
                 <div className="row"></div>
               </div>
               {/* <!--end single header--> */}
-              {/* <figure className="image mb-30 m-auto text-center border-radius-10">
+              <figure className="image mb-30 m-auto text-center border-radius-10">
                 <img
                   className="border-radius-10"
-                  src={`/assets/imgs/news/1-lighttable.jpg`}
+                  src={`/assets/imgs/news/2-100languages.jpg`}
                   alt="lighttable"
                   height="300px"
                 />
-              </figure> */}
+              </figure>
               {/* <!--figure--> */}
               <article className="entry-wraper mb-50">
                 <div className="entry-main-content wow fadeIn animated">
