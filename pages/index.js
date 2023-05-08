@@ -174,7 +174,7 @@ function Home() {
                                 <a>{item.title}</a>
                               </Link>
                             </h5>
-                            <div className="entry-meta meta-0 font-small mb-10">
+                            <div className="entry-meta meta-0 font-x-small mb-10">
                               <Link href={`/category/${item.category}`}>
                                 <a>
                                   <span className="post-cat text-info">
