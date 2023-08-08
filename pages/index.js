@@ -107,7 +107,7 @@ function Home() {
               <div className="row">
                 {post
                   .reverse()
-                  .slice(0, 2)
+                  .slice(0, 3)
                   .map((item, i) => (
                     <article
                       className="col-lg-4 col-md-6 mb-30 wow fadeInUp animated"

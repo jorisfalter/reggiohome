@@ -26,7 +26,7 @@ function CaregoryList() {
                 <div className="col-lg-8">
                   <div className="post-module-3">
                     <div className="loop-list loop-list-style-1">
-                      {data.map((item, i) => (
+                      {data.reverse().map((item, i) => (
                         <article className="hover-up-2 transition-normal wow fadeInUp animated">
                           <div className="row mb-40 list-style-2">
                             <div className="col-md-4">
