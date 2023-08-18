@@ -38,7 +38,7 @@ function Home() {
                 </p>
 
                 <p>
-                  Our goals is to provide you with valuable resources, practical
+                  Our goal is to provide you with valuable resources, practical
                   tips and individual support on implementing this innovative
                   approach in your home environment.{" "}
                 </p>
