@@ -275,6 +275,12 @@ button.bg-primary:hover {
   padding-top: 20px;
 }
 
+.blog-subtitle-homepage{
+  color:gray !important;
+  font-size:12px;
+
+}
+
 .introparagraph{
   font-family: "Avenir";
   font-size: 16px;
