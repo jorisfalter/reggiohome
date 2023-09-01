@@ -34,6 +34,22 @@
 	{
 		"id": 3,
 		"img": "3-thirdteacher2.jpg",
+		"category": "Something here",
+		"title": "The Environment as the 'Third Teacher' ",
+		"author": "",
+		"date": "31 August 2023",
+		"readTime": "",
+		"desc": "",
+		"views": "",
+		"tags": ["", "", ""],
+		"comments": "",
+		"likes": "",
+		"rating": "",
+		"totalPost": ""
+	},
+	{
+		"id": 4,
+		"img": "3-thirdteacher2.jpg",
 		"category": "To create active engagement, collaboration, creativity and true holistic development, you need an environment where learning takes place",
 		"title": "The Environment as the 'Third Teacher' ",
 		"author": "",
