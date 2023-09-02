@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
     <>
       <Head>
         <title>Reggio Home</title>
-        <meta property="og:title" content="My page title" key="title" />
+        <meta property="og:title" content="Reggio Home" key="Reggio Home" />
         <link
           href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
           rel="stylesheet"
