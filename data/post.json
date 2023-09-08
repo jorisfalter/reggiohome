@@ -62,5 +62,21 @@
 		"likes": "",
 		"rating": "",
 		"totalPost": ""
+	},
+	{
+		"id": 5,
+		"img": "5-1.jpg",
+		"category": " A Fun and Engaging Start to the School Year",
+		"title": "The impact of open ended questions on a child's learning",
+		"author": "",
+		"date": "8 September 2023",
+		"readTime": "",
+		"desc": "",
+		"views": "",
+		"tags": ["", "", ""],
+		"comments": "",
+		"likes": "",
+		"rating": "",
+		"totalPost": ""
 	}
 ]

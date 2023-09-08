@@ -12,16 +12,16 @@ const SingleVendor = () => {
         <>
           <main className="bg-grey pb-30">
             <div className="container single-content">
+              {/* titel */}
               <div className="entry-header entry-header-style-1 mb-50 pt-50">
                 <h1 className="entry-title mb-50 font-weight-900">
                   Building a Strong Classroom Community: A Fun and Engaging
                   Start to the School Year{" "}
                 </h1>
               </div>
-
-              {/* <!--figure--> */}
               <article className="entry-wraper mb-50">
                 <div className="entry-main-content wow fadeIn animated">
+                  {/* <!--figure--> */}
                   <figure className="image mb-30 m-auto text-center border-radius-10">
                     <img
                       className="border-radius-10"
@@ -122,25 +122,21 @@ const SingleVendor = () => {
                     communication through various languages:
                   </p>
                   <p>
-                    <li>
-                      <ul>
-                        <li>
-                          <b>Friend Portraits:</b> Let children create portraits
-                          of their friends using natural materials on a light
-                          table. This creative activity promotes communication
-                          through art and observation.
-                        </li>
-                      </ul>
-                      <ul>
-                        <li>
-                          <b>My Secret Bag: </b>Encourage children to share
-                          stories about their lives by bringing in special items
-                          from home. These items could be photographs, clothing,
-                          or cherished toys, sparking engaging circle time
-                          discussions.
-                        </li>
-                      </ul>
-                    </li>
+                    <ul>
+                      <li>
+                        <b>Friend Portraits:</b> Let children create portraits
+                        of their friends using natural materials on a light
+                        table. This creative activity promotes communication
+                        through art and observation.
+                      </li>
+                      <li>
+                        <b>My Secret Bag: </b>Encourage children to share
+                        stories about their lives by bringing in special items
+                        from home. These items could be photographs, clothing,
+                        or cherished toys, sparking engaging circle time
+                        discussions.
+                      </li>
+                    </ul>
                   </p>
                   <figure className="image mb-30 m-auto text-center border-radius-10">
                     <img
