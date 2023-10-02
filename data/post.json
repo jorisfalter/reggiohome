@@ -78,5 +78,21 @@
 		"likes": "",
 		"rating": "",
 		"totalPost": ""
+	},
+	{
+		"id": 6,
+		"img": "6-1.jpg",
+		"category": "",
+		"title": "Documentation: An insight in the child's learning",
+		"author": "",
+		"date": "2 October 2023",
+		"readTime": "",
+		"desc": "",
+		"views": "",
+		"tags": ["", "", ""],
+		"comments": "",
+		"likes": "",
+		"rating": "",
+		"totalPost": ""
 	}
 ]
