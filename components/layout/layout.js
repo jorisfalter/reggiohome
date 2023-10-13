@@ -41,6 +41,11 @@ const Layout = ({ children }) => {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Avenir"
         />
+        <script
+          defer
+          data-domain="reggiohome.com"
+          src="https://plausible.io/js/script.js"
+        ></script>
       </Head>
       <Sidebar removeClass={removeClass} />
       <Header addClass={addClass} openSearch={openSearch} />
