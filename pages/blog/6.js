@@ -28,9 +28,11 @@ const SingleVendor = () => {
                     educators and transform single moments into meaningful
                     records of learning journeys. Understanding the art of
                     documentation can change the way you approach teaching and
-                    its outcomes. But why is documentation a powerful tool, and
-                    how can it contribute to the learning and development of
-                    children?
+                    its outcomes.{" "}
+                  </p>
+                  <p>
+                    But why is documentation a powerful tool, and how can it
+                    contribute to the learning and development of children?
                   </p>
                   <figure className="image mb-30 m-auto text-center border-radius-10">
                     <img
