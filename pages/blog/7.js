@@ -30,7 +30,7 @@ const SingleVendor = () => {
                   <figure className="image mb-30 m-auto text-center border-radius-10">
                     <img
                       className="border-radius-10"
-                      src={`/assets/imgs/news/4-1.jpeg`} //  naam van de foto
+                      src={`/assets/imgs/news/7-1.png`} //  naam van de foto
                       alt="happy children" //  dit is een beschrijving voor Google
                       height="300px"
                     />
@@ -47,14 +47,20 @@ const SingleVendor = () => {
                   various materials and techniques with expressive
                   possibilities. It also assists teachers in understanding how
                   children learn. It is not just a place for activities but a
-                  space where teachers give meaning to those activities.
+                  space where teachers give meaning to those activities.{" "}
+                </p>
+                <p>
                   Creating an atelier in a school environment allows the
                   educational process and various learning experiences for
                   children to be seen as a holistic and complete approach. It
                   enables children to consider academic and scientific topics
                   from different perspectives, using various languages to foster
-                  a deeper understanding. But how can we ensure we give meaning
-                  to the activities in an atelier?
+                  a deeper understanding.{" "}
+                </p>
+                <br></br>
+                <p>
+                  But how can we ensure we give meaning to the activities in an
+                  atelier?
                 </p>
 
                 <p className="question excerpt">Aesthetics</p>
@@ -110,7 +116,7 @@ const SingleVendor = () => {
                   these materials to learn new techniques and build a deeper
                   understanding.
                 </p>
-
+                <br></br>
                 <p>
                   An atelier serves as a dynamic and transformative space within
                   the educational landscape. It fosters curiosity, creativity
