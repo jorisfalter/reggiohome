@@ -94,5 +94,21 @@
 		"likes": "",
 		"rating": "",
 		"totalPost": ""
+	},
+	{
+		"id": 7,
+		"img": "7-1.jpg",
+		"category": "",
+		"title": "The atelier: a place for meaningful learning",
+		"author": "",
+		"date": "8 November 2023",
+		"readTime": "",
+		"desc": "",
+		"views": "",
+		"tags": ["", "", ""],
+		"comments": "",
+		"likes": "",
+		"rating": "",
+		"totalPost": ""
 	}
 ]
