@@ -17,15 +17,16 @@ const SingleVendor = () => {
                   The atelier: a place for meaningful learning{" "}
                 </h1>
               </div>
-
-              <p>
-                Many Reggio Emilia-inspired schools have an atelier, a place for
-                children to explore, discover, and expand their knowledge. But
-                what is an atelier, and how can you ensure optimal learning?
-              </p>
-              {/* <!--figure--> */}
               <article className="entry-wraper mb-50">
                 <div className="entry-main-content wow fadeIn animated">
+                  <p>
+                    Many Reggio Emilia-inspired schools have an atelier, a place
+                    for children to explore, discover, and expand their
+                    knowledge. But what is an atelier, and how can you ensure
+                    optimal learning?
+                  </p>
+                  {/* <!--figure--> */}
+
                   <figure className="image mb-30 m-auto text-center border-radius-10">
                     <img
                       className="border-radius-10"
