@@ -42,7 +42,9 @@ const SingleVendor = () => {
                 </figure>
 
                 <p>
-                  <b>What is Artificial Intelligence (AI)? </b>
+                  <p className="question excerpt">
+                    What is Artificial Intelligence (AI)?{" "}
+                  </p>
                 </p>
 
                 <p>
@@ -83,7 +85,9 @@ const SingleVendor = () => {
                 </p>
 
                 <p>
-                  <b>Visual programming Languages</b>
+                  <p className="question excerpt">
+                    Visual programming Languages
+                  </p>
                 </p>
 
                 <p>
@@ -115,7 +119,7 @@ const SingleVendor = () => {
                 <ul>
                   <li>
                     <a href="https://scratch.mit.edu">
-                      <i>Scratch</i>
+                      <i style={{ color: "blue" }}>Scratch</i>
                     </a>
                     <p>
                       {" "}
@@ -150,7 +154,7 @@ const SingleVendor = () => {
                 <ul>
                   <li>
                     <a href="https://teachablemachine.withgoogle.com">
-                      <i>Google Teachable Machine</i>
+                      <i style={{ color: "blue" }}>Google Teachable Machine</i>
                     </a>
                     <p>
                       Imagine you’re doing a project on the differences between
@@ -176,7 +180,7 @@ const SingleVendor = () => {
                   the dangers hidden in these developments. Only then can we
                   ensure the children will be ready for the future.{" "}
                 </p>
-
+                <br></br>
                 <p>
                   {" "}
                   <i>
