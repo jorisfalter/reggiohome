@@ -50,7 +50,7 @@
 	{
 		"id": 4,
 		"img": "4-3.jpeg",
-		"category": " A Fun and Engaging Start to the School Year",
+		"category": "A Fun and Engaging Start to the School Year",
 		"title": "Building Community at the Start of the School Year",
 		"author": "",
 		"date": "31 August 2023",
@@ -82,9 +82,9 @@
 	{
 		"id": 6,
 		"img": "6-1.jpg",
-		"category": "",
+		"category": "Capturing the child's learning experience from their first steps onwards",
 		"title": "Documentation: An insight in the child's learning",
-		"author": "Capturing the child's learning experience from their first steps onwards",
+		"author": "",
 		"date": "2 October 2023",
 		"readTime": "",
 		"desc": "",
