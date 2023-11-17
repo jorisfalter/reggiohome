@@ -142,7 +142,7 @@ const SingleVendor = () => {
                   </li>
                 </ul>
                 <p>
-                  <b> Machine Learning</b>
+                  <p className="question excerpt">Machine Learning</p>
                 </p>
                 <p>
                   Machine Learning (ML) is a subset of AI that focuses on the
