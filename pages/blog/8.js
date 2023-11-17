@@ -32,6 +32,14 @@ const SingleVendor = () => {
                   even compose music? How can we use these new developments in
                   our classroom?
                 </p>
+                <figure className="image mb-30 m-auto text-center border-radius-10">
+                  <img
+                    className="border-radius-10"
+                    src={`/assets/imgs/news/8-1.png`} //  naam van de foto
+                    alt="happy children" //  dit is een beschrijving voor Google
+                    height="300px"
+                  />
+                </figure>
 
                 <p>
                   <b>What is Artificial Intelligence (AI)? </b>
