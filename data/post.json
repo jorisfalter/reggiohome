@@ -142,5 +142,21 @@
 		"likes": "",
 		"rating": "",
 		"totalPost": ""
+	},
+	{
+		"id": "post-10",
+		"img": "10-1.png",
+		"category": "Christmas activities for children that they can do on their own",
+		"title": "More Literacy Activities",
+		"author": "",
+		"date": "7 December 2023",
+		"readTime": "",
+		"desc": "",
+		"views": "",
+		"tags": ["", "", ""],
+		"comments": "",
+		"likes": "",
+		"rating": "",
+		"totalPost": ""
 	}
 ]
