@@ -120,10 +120,6 @@ const SingleVendor = () => {
                     />
                   </figure>
 
-                  <blockquote>
-                    <p>xxx</p>
-                  </blockquote>
-
                   <p></p>
                   <p></p>
                 </div>
