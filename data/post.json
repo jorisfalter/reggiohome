@@ -158,5 +158,21 @@
 		"likes": "",
 		"rating": "",
 		"totalPost": ""
+	},
+	{
+		"id": "post-11",
+		"img": "11-1.png",
+		"category": "Why we should introduce technology in early years",
+		"title": "Technology in the classroom, yes or no?",
+		"author": "",
+		"date": "7 December 2023",
+		"readTime": "",
+		"desc": "",
+		"views": "",
+		"tags": ["", "", ""],
+		"comments": "",
+		"likes": "",
+		"rating": "",
+		"totalPost": ""
 	}
 ]
