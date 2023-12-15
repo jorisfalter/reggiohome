@@ -42,13 +42,13 @@ const SingleVendor = () => {
                     technology, the response is as follows:
                   </p>
                   <p>
-                    <i>
+                    <blockquote>
                       “Technology is the application of scientific knowledge for
                       practical purposes, especially in industry. It entails
                       machinery and equipment developed from the application of
                       scientific knowledge and the branch of knowledge dealing
                       with engineering or applied sciences.”
-                    </i>
+                    </blockquote>
                   </p>
                   <p>
                     {" "}
@@ -75,7 +75,7 @@ const SingleVendor = () => {
                   <p>
                     Effectively using technology in early childhood settings,
                     necessitates an understanding of the differences between
-                    active and passive technology use.
+                    active and passive technology use:
                   </p>
                   <p>
                     <ul>
@@ -146,7 +146,7 @@ const SingleVendor = () => {
                     Loris Malaguzzi has said:{" "}
                   </p>
                   <p>
-                    <i>
+                    <blockquote>
                       “The meeting of the children and the computer is, in
                       effect, the meeting of two ‘intelligences’ that need to
                       get to know each other. The child’s intelligence is fluid,
@@ -160,7 +160,7 @@ const SingleVendor = () => {
                       and to encourage them to rethink their actions, to
                       indicate the way out of a problem, to suggest the means
                       for arriving at a ‘joining of forces’.”{" "}
-                    </i>
+                    </blockquote>
                   </p>
 
                   <p>
@@ -171,8 +171,8 @@ const SingleVendor = () => {
                     how do you intend to integrate it thoughtfully and with
                     appropriate supervision?
                   </p>
-
-                  <p>
+                  <br></br>
+                  <p style={{ fontSize: "0.8rem" }}>
                     <ol>
                       <li>
                         <a href="https://www.childrenandscreens.org/learn-explore/research/how-does-technology-affect-kids-social-development/">
