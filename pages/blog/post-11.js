@@ -104,8 +104,8 @@ const SingleVendor = () => {
                   <p>
                     To ensure appropriate technology experiences a guideline
                     with questions has been outlined for parents and educators,
-                    using the 3 C’s: content, context, and child’s needs₄. These
-                    questions include:
+                    using the 3 C’s: content, context, and child’s needs
+                    <sup>4</sup>. These questions include:
                   </p>
                   <p>
                     <ul>
@@ -133,7 +133,7 @@ const SingleVendor = () => {
                     Effective ways of using technology include engagement
                     through activity apps, communications via video chats,
                     learning with guided apps, creating digital content such as
-                    books or songs₂.
+                    books or songs<sup>2</sup>.
                   </p>
 
                   <p>
