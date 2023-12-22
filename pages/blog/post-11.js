@@ -88,7 +88,8 @@ const SingleVendor = () => {
                         <i>Active Technology</i> use occurs when children employ
                         technology as a tool for meaningful learning, such as
                         recording sounds, documenting their stories, or using
-                        video chat to communicate with distant individuals₂.{" "}
+                        video chat to communicate with distant individuals
+                        <sup>2</sup>.{" "}
                       </li>
                     </ul>
                   </p>
@@ -96,9 +97,9 @@ const SingleVendor = () => {
                   <p>
                     It is evident that, with early learners, the emphasis should
                     be on active technology use, as it can serve as a valuable
-                    learning tool₂. Appropriate technology experiences enable
-                    children to control the medium, explore functionality and
-                    stimulate real life use₃.
+                    learning tool<sup>2</sup>. Appropriate technology
+                    experiences enable children to control the medium, explore
+                    functionality and stimulate real life use<sup>3</sup>.
                   </p>
                   <p>
                     To ensure appropriate technology experiences a guideline
