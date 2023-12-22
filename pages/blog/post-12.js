@@ -15,7 +15,7 @@ const SingleVendor = () => {
               <div className="entry-header entry-header-style-1 mb-50 pt-50">
                 <h1 className="entry-title mb-50 font-weight-900">
                   {" "}
-                  The light table: Why every classroom should have one.
+                  The light table: Why every classroom should have one
                 </h1>
               </div>
               <article className="entry-wraper mb-50">
@@ -53,6 +53,14 @@ const SingleVendor = () => {
                     you can do on the light table:
                   </p>
 
+                  <figure className="image mb-30 m-auto text-center border-radius-10">
+                    <img
+                      className="border-radius-10"
+                      src={`/assets/imgs/news/12-1.png`} //  naam van de foto
+                      alt="happy children" //  dit is een beschrijving voor Google
+                      height="300px"
+                    />
+                  </figure>
                   <b>Fine motor skills using sand </b>
                   <p>
                     Place some sand on top of the light table. The children can
@@ -61,6 +69,14 @@ const SingleVendor = () => {
                     teacher-guided, you can place letters or other forms
                     underneath the sand for children to trace.{" "}
                   </p>
+                  <figure className="image mb-30 m-auto text-center border-radius-10">
+                    <img
+                      className="border-radius-10"
+                      src={`/assets/imgs/news/12-2.png`} //  naam van de foto
+                      alt="happy children" //  dit is een beschrijving voor Google
+                      height="300px"
+                    />
+                  </figure>
                   <b>Project explorations with natural materials</b>
                   <p>
                     The light from the light table will give a new dimension to
@@ -71,6 +87,14 @@ const SingleVendor = () => {
                     glasses and some pens and papers for observational drawings,
                     where children can document their newly found knowledge.{" "}
                   </p>
+                  <figure className="image mb-30 m-auto text-center border-radius-10">
+                    <img
+                      className="border-radius-10"
+                      src={`/assets/imgs/news/12-3.png`} //  naam van de foto
+                      alt="happy children" //  dit is een beschrijving voor Google
+                      height="300px"
+                    />
+                  </figure>
                   <b>Color explorations with paint</b>
                   <p>
                     Ever thought of covering your light table with a plastic
@@ -104,15 +128,6 @@ const SingleVendor = () => {
                       pasta, etc.{" "}
                     </li>
                   </ul>
-
-                  <figure className="image mb-30 m-auto text-center border-radius-10">
-                    <img
-                      className="border-radius-10"
-                      src={`/assets/imgs/news/11-1.png`} //  naam van de foto
-                      alt="happy children" //  dit is een beschrijving voor Google
-                      height="300px"
-                    />
-                  </figure>
                 </div>
               </article>
             </div>
