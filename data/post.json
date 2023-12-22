@@ -174,5 +174,21 @@
 		"likes": "",
 		"rating": "",
 		"totalPost": ""
+	},
+	{
+		"id": "post-12",
+		"img": "12-1.png",
+		"category": "subtitle",
+		"title": "title",
+		"author": "",
+		"date": "22 December 2023",
+		"readTime": "",
+		"desc": "",
+		"views": "",
+		"tags": ["", "", ""],
+		"comments": "",
+		"likes": "",
+		"rating": "",
+		"totalPost": ""
 	}
 ]
