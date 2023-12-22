@@ -70,7 +70,7 @@ const SingleVendor = () => {
                     this, children require engagement with others. When
                     integrating technology into early years environments, it is
                     imperative to ensure that children can maintain personal
-                    interactions₁.{" "}
+                    interactions<sup>1</sup>.{" "}
                   </p>
                   <p>
                     Effectively using technology in early childhood settings,
