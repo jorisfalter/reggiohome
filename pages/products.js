@@ -22,13 +22,13 @@ function CaregoryList() {
           <div className="pb-50">
             <div className="container">
               <h2 className="font-weight-900">Coming Soon:</h2>
-              <p style={{fontSize: "1.25rem";}}>
+              <p style={{ fontSize: "1.25rem" }}>
                 A beautiful and easy way to document the Project provocations
                 and experiences in your classroom.
               </p>
-              <h2 className="font-weight-900">
+              <p style={{ fontSize: "1.25rem" }}>
                 Feel free to read the blog in the meantime:
-              </h2>
+              </p>
 
               <div className="row">
                 <div className="col-lg-8">
