@@ -21,7 +21,9 @@ function CaregoryList() {
           </div>
           <div className="pb-50">
             <div className="container">
-              <h2 className="font-weight-900">No Products ... Yet!</h2> <p></p>
+              <h2 className="font-weight-900">No Products ... Yet!</h2>A
+              beautiful and easy way to document the Project provocations and
+              experiences in your classroom.
               <p>In the meantime, feel free to read our blog posts below</p>
               <p>
                 Or sign up to the{" "}
