@@ -21,19 +21,15 @@ function CaregoryList() {
           </div>
           <div className="pb-50">
             <div className="container">
-              <h2 className="font-weight-900">No Products ... Yet!</h2>
-              <p>
+              <h2 className="font-weight-900">Coming Soon:</h2>
+              <p style={{fontSize: "1.25rem";}}>
                 A beautiful and easy way to document the Project provocations
                 and experiences in your classroom.
               </p>
-              <p>
-                Or sign up to the{" "}
-                <Link href={"/newsletter"}>
-                  <a className="img-link-intext">newsletter</a>
-                </Link>{" "}
-                to be kept up to date!{" "}
-              </p>
-              <p>Happy Browsing!</p>
+              <h2 className="font-weight-900">
+                Feel free to read the blog in the meantime:
+              </h2>
+
               <div className="row">
                 <div className="col-lg-8">
                   <div className="post-module-3">
