@@ -21,96 +21,51 @@ function CaregoryList() {
           </div>
           <div className="pb-50">
             <div className="container">
-              <h2 className="font-weight-900">
-                Coming Soon: Documentation Template
-              </h2>
+              <h2 className="font-weight-900">Documentation Template</h2>
               <br></br>
               <p style={{ fontSize: "1.25rem" }}>
                 A beautiful and easy way to document the Project Provocations
                 and experiences in your classroom.
-              </p>
-              <p style={{ fontSize: "1.25rem" }}>
-                Feel free to read the blog in the meantime:
               </p>
 
               <div className="row">
                 <div className="col-lg-8">
                   <div className="post-module-3">
                     <div className="loop-list loop-list-style-1">
-                      {data.map((item, i) => (
-                        <article className="hover-up-2 transition-normal wow fadeInUp animated">
-                          <div className="row mb-40 list-style-2">
-                            <div className="col-md-4">
-                              <div className="post-thumb position-relative border-radius-5">
-                                <div
-                                  className="img-hover-slide border-radius-5 position-relative"
-                                  style={{
-                                    backgroundImage: `url(assets/imgs/news/${item.img})`,
-                                  }}
+                      <article className="hover-up-2 transition-normal wow fadeInUp animated">
+                        <div className="row mb-40 list-style-2">
+                          <div className="col-md-4">
+                            <div className="post-thumb position-relative border-radius-5">
+                              <div
+                                className="img-hover-slide border-radius-5 position-relative"
+                                style={{
+                                  backgroundImage: `url(assets/imgs/news/prod1.png)`,
+                                }}
+                              >
+                                <Link
+                                  href={`https://docs.google.com/presentation/d/1127kKhJBwA8brUzdqISQQK88Iwtoiq64Job4mE8daiQ/edit?pli=1#slide=id.p`}
                                 >
-                                  <Link href={`/blog/${item.id}`}>
-                                    <a className="img-link"></a>
-                                  </Link>
-                                </div>
-                                <ul className="social-share">
-                                  <li>
-                                    <Link href="/#">
-                                      <a>
-                                        <i className="elegant-icon social_share"></i>
-                                      </a>
-                                    </Link>
-                                  </li>
-                                  <li>
-                                    <Link href="/#">
-                                      <a
-                                        className="fb"
-                                        title="Share on Facebook"
-                                        target="_blank"
-                                      >
-                                        <i className="elegant-icon social_facebook"></i>
-                                      </a>
-                                    </Link>
-                                  </li>
-                                  <li>
-                                    <Link href="/#">
-                                      <a
-                                        className="tw"
-                                        target="_blank"
-                                        title="Tweet now"
-                                      >
-                                        <i className="elegant-icon social_twitter"></i>
-                                      </a>
-                                    </Link>
-                                  </li>
-                                  <li>
-                                    <Link href="/#">
-                                      <a
-                                        className="pt"
-                                        target="_blank"
-                                        title="Pin it"
-                                      >
-                                        <i className="elegant-icon social_pinterest"></i>
-                                      </a>
-                                    </Link>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                            <div className="col-md-8 align-self-center">
-                              <div className="post-content">
-                                <h5 className="post-title font-weight-900 mb-20">
-                                  <Link href={`/blog/${item.id}`}>
-                                    <a>{item.title}</a>
-                                  </Link>
-                                </h5>
-                                <div className="entry-meta meta-1 float-left font-x-small text-uppercase">
-                                  <span className="post-on">{item.date}</span>
-                                </div>
+                                  <a className="img-link"></a>
+                                </Link>
                               </div>
                             </div>
                           </div>
-                        </article>
-                      ))}
+                          <div className="col-md-8 align-self-center">
+                            <div className="post-content">
+                              <h5 className="post-title font-weight-900 mb-20">
+                                <Link
+                                  href={`https://docs.google.com/presentation/d/1127kKhJBwA8brUzdqISQQK88Iwtoiq64Job4mE8daiQ/edit?pli=1#slide=id.p`}
+                                >
+                                  <a>Documentation Template</a>
+                                </Link>
+                              </h5>
+                              <div className="entry-meta meta-1 float-left font-x-small text-uppercase">
+                                <span className="post-on">2 Jan 2024</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
                     </div>
                   </div>
                 </div>
