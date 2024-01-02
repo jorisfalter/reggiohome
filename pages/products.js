@@ -40,6 +40,9 @@ function CaregoryList() {
                                 className="img-hover-slide border-radius-5 position-relative"
                                 style={{
                                   backgroundImage: `url(assets/imgs/news/prod1.png)`,
+                                  borderColor: "black",
+                                  borderStyle: "solid",
+                                  borderWidth: "1px",
                                 }}
                               >
                                 <Link
