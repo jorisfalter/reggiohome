@@ -21,10 +21,12 @@ function CaregoryList() {
           </div>
           <div className="pb-50">
             <div className="container">
-              <h2 className="font-weight-900">Coming Soon:</h2>
+              <h2 className="font-weight-900">
+                Coming Soon: Documentation Template
+              </h2>
               <br></br>
               <p style={{ fontSize: "1.25rem" }}>
-                A beautiful and easy way to document the Project provocations
+                A beautiful and easy way to document the Project Provocations
                 and experiences in your classroom.
               </p>
               <p style={{ fontSize: "1.25rem" }}>
