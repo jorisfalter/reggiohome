@@ -21,20 +21,78 @@ function CaregoryList() {
           </div>
           <div className="pb-50">
             <div className="container">
-              <h2 className="font-weight-900">Documentation Template</h2>
+              {/* documentation template products */}
+              <h2 className="font-weight-900">Free Documentation Templates</h2>
               <br></br>
-              <p style={{ fontSize: "1.25rem" }}>
+              {/* <p style={{ fontSize: "1.25rem" }}>
                 A beautiful and easy way to document the Project Provocations
                 and experiences in your classroom.
-              </p>
-
+              </p> */}
               <div className="row">
                 <div className="col-lg-8">
                   <div className="post-module-3">
                     <div className="loop-list loop-list-style-1">
                       <article className="hover-up-2 transition-normal wow fadeInUp animated">
                         <div className="row mb-40 list-style-2">
-                          <div className="col-md-4">
+                          {/* start of template list */}
+                          {/* second template */}
+                          {/* second template image */}
+                          <div
+                            className="col-md-4"
+                            style={{ "padding-top": "15px" }}
+                          >
+                            <div className="post-thumb position-relative border-radius-5">
+                              <div
+                                className="img-hover-slide border-radius-5 position-relative"
+                                style={{
+                                  backgroundImage: `url(assets/imgs/news/comingSoon.png)`,
+                                  borderColor: "black",
+                                  borderStyle: "solid",
+                                  borderWidth: "1px",
+                                }}
+                              >
+                                <Link href={``}>
+                                  <a className="img-link"></a>
+                                </Link>
+                              </div>
+                            </div>
+                          </div>
+                          {/* second template content */}
+
+                          <div className="col-md-8 align-self-center">
+                            <div className="post-content">
+                              <h5 className="post-title font-weight-900 mb-20">
+                                <Link href={``}>
+                                  <a>
+                                    COMING SOON: Documentation Template
+                                    including Quote Format Generator
+                                  </a>
+                                </Link>
+
+                                <p
+                                  class="blog-subtitle-homepage"
+                                  style={{ "padding-top": "8px" }}
+                                >
+                                  An easy wat to document your children's
+                                  Project provocations and learning experiences.
+                                  This template includes a simple tool to
+                                  automatically generate your children's quotes
+                                  in the correct format, no need to adjust font
+                                  sizes for each quote.
+                                </p>
+                              </h5>
+                              <div className="entry-meta meta-1 float-left font-x-small text-uppercase">
+                                <span className="post-on">12 Jan 2024</span>
+                              </div>
+                            </div>
+                          </div>
+                          {/* first template */}
+                          {/* first template image */}
+
+                          <div
+                            className="col-md-4"
+                            style={{ "padding-top": "15px" }}
+                          >
                             <div className="post-thumb position-relative border-radius-5">
                               <div
                                 className="img-hover-slide border-radius-5 position-relative"
@@ -53,8 +111,7 @@ function CaregoryList() {
                               </div>
                             </div>
                           </div>
-                          {/* start of product list */}
-                          {/* first product */}
+                          {/* first template content */}
                           <div className="col-md-8 align-self-center">
                             <div className="post-content">
                               <h5 className="post-title font-weight-900 mb-20">
@@ -78,30 +135,6 @@ function CaregoryList() {
                               </div>
                             </div>
                           </div>
-                          {/* second product */}
-                          {/* <div className="col-md-8 align-self-center"  style={{ "padding-top": "8px" }}>
-                            <div className="post-content">
-                              <h5 className="post-title font-weight-900 mb-20">
-                                <Link
-                                  href={`https://docs.google.com/presentation/d/1127kKhJBwA8brUzdqISQQK88Iwtoiq64Job4mE8daiQ/edit?pli=1#slide=id.p`}
-                                >
-                                  <a>Documentation Template</a>
-                                </Link>
-
-                                <p
-                                  class="blog-subtitle-homepage"
-                                  style={{ "padding-top": "8px" }}
-                                >
-                                  A beautiful and easy way to document the
-                                  Project provocations and experiences in your
-                                  classroom. Use this free template.
-                                </p>
-                              </h5>
-                              <div className="entry-meta meta-1 float-left font-x-small text-uppercase">
-                                <span className="post-on">2 Jan 2024</span>
-                              </div>
-                            </div>
-                          </div> */}
                         </div>
                       </article>
                     </div>
