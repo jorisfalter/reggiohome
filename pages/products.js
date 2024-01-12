@@ -54,6 +54,7 @@ function CaregoryList() {
                             </div>
                           </div>
                           {/* start of product list */}
+                          {/* first product */}
                           <div className="col-md-8 align-self-center">
                             <div className="post-content">
                               <h5 className="post-title font-weight-900 mb-20">
@@ -62,12 +63,45 @@ function CaregoryList() {
                                 >
                                   <a>Documentation Template</a>
                                 </Link>
+
+                                <p
+                                  class="blog-subtitle-homepage"
+                                  style={{ "padding-top": "8px" }}
+                                >
+                                  A beautiful and easy way to document the
+                                  Project provocations and experiences in your
+                                  classroom. Use this free template.
+                                </p>
                               </h5>
                               <div className="entry-meta meta-1 float-left font-x-small text-uppercase">
                                 <span className="post-on">2 Jan 2024</span>
                               </div>
                             </div>
                           </div>
+                          {/* second product */}
+                          {/* <div className="col-md-8 align-self-center"  style={{ "padding-top": "8px" }}>
+                            <div className="post-content">
+                              <h5 className="post-title font-weight-900 mb-20">
+                                <Link
+                                  href={`https://docs.google.com/presentation/d/1127kKhJBwA8brUzdqISQQK88Iwtoiq64Job4mE8daiQ/edit?pli=1#slide=id.p`}
+                                >
+                                  <a>Documentation Template</a>
+                                </Link>
+
+                                <p
+                                  class="blog-subtitle-homepage"
+                                  style={{ "padding-top": "8px" }}
+                                >
+                                  A beautiful and easy way to document the
+                                  Project provocations and experiences in your
+                                  classroom. Use this free template.
+                                </p>
+                              </h5>
+                              <div className="entry-meta meta-1 float-left font-x-small text-uppercase">
+                                <span className="post-on">2 Jan 2024</span>
+                              </div>
+                            </div>
+                          </div> */}
                         </div>
                       </article>
                     </div>
