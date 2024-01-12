@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Layout from "./../components/layout/layout";
+import Layout from "../components/layout/layout";
 import data from "../data/author.json";
 function Author() {
   return (

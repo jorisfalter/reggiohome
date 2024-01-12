@@ -1,14 +1,19 @@
 import Link from "next/link";
-import Layout from "../../components/layout/layout";
-import PostCarousel1 from "../../components/slider/PostCarousel1";
-import VerticalCarousel from "../../components/slider/VerticalCarousel";
-import data from "../../data/post.json";
-function Home2() {
+import Layout from "../components/layout/layout";
+import HomeSlider3 from "../components/slider/HomeSlider3";
+import PostCarousel1 from "../components/slider/PostCarousel1";
+import data from "../data/post.json";
+function Home3() {
   return (
     <>
       <Layout>
-        <main>
-          <VerticalCarousel />
+        <main className="bg-grey pb-30">
+          <div className="container pt-30">
+            <div className="featured-slider-3 position-relative">
+              <div className="slider-3-arrow-cover"></div>
+              <HomeSlider3 />
+            </div>
+          </div>
           {/* <!-- End feature --> */}
           <div className="container">
             <div className="hot-tags pt-30 pb-30 font-small align-self-center">
@@ -24,16 +29,16 @@ function Home2() {
                     </p>
                     <ul className="list-inline d-inline-block tags">
                       <li className="list-inline-item">
-                        <a href="/#"># Covid-19</a>
+                        <a href="#"># Covid-19</a>
                       </li>
                       <li className="list-inline-item">
-                        <a href="/#"># Inspiration</a>
+                        <a href="#"># Inspiration</a>
                       </li>
                       <li className="list-inline-item">
-                        <a href="/#"># Work online</a>
+                        <a href="#"># Work online</a>
                       </li>
                       <li className="list-inline-item">
-                        <a href="/#"># Stay home</a>
+                        <a href="#"># Stay home</a>
                       </li>
                     </ul>
                   </div>
@@ -680,4 +685,4 @@ function Home2() {
     </>
   );
 }
-export default Home2;
+export default Home3;

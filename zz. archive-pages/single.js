@@ -1,73 +1,86 @@
 import Link from "next/link";
-import Layout from "../../components/layout/layout";
-function Single3() {
+import Layout from "../components/layout/layout";
+function Single() {
   return (
     <>
       <Layout>
         <main className="bg-grey pb-30">
           <div className="container single-content">
-            <div className="entry-header pt-80 pb-30 mb-20">
+            <div className="entry-header entry-header-style-1 mb-50 pt-50">
+              <h1 className="entry-title mb-50 font-weight-900">
+                The effect of livestock on the physiological condition of roe
+                deer is modulated by habitat quality
+              </h1>
               <div className="row">
-                <div className="col-md-6 mb-md-0 mb-sm-3">
-                  <figure className="mb-0 mt-lg-0 mt-3 border-radius-5">
-                    <img
-                      className=" border-radius-5"
-                      src="/assets/imgs/news/news-8.jpg"
-                      alt=""
-                    />
-                  </figure>
-                </div>
-                <div className="col-md-6 align-self-center">
-                  <div className="post-content">
-                    <div className="entry-meta meta-0 mb-15 font-small">
-                      <Link href="/category">
-                        <a>
-                          <span className="post-cat position-relative text-info">
-                            Travel tips
-                          </span>
-                        </a>
-                      </Link>
-                      <Link href="/category">
-                        <a>
-                          <span className="post-cat position-relative text-success">
-                            Food
-                          </span>
-                        </a>
-                      </Link>
-                    </div>
-                    <h1 className="entry-title mb-30 font-weight-900">
-                      The Best Time to Travel to Cambodia
-                    </h1>
-                    <p className="excerpt mb-30">
-                      As school districts across the United States consider
-                      whether and how to restart in-person classes, their
-                      challenge is complicated by a pair of fundamental
-                      uncertainties.
-                    </p>
-                    <div className="entry-meta align-items-center meta-2 font-small color-muted">
-                      <p className="mb-5">
-                        <a className="author-avatar" href="/#">
+                <div className="col-md-6">
+                  <div className="entry-meta align-items-center meta-2 font-small color-muted">
+                    <p className="mb-5">
+                      <Link href="/author">
+                        <a className="author-avatar" href="#">
                           <img
                             className="img-circle"
                             src="/assets/imgs/authors/author-3.jpg"
                             alt=""
                           />
                         </a>
-                        By{" "}
-                        <a href="/author">
+                      </Link>
+                      By{" "}
+                      <Link href="/author">
+                        <a>
                           <span className="author-name font-weight-bold">
                             Barbara Cartland
                           </span>
                         </a>
-                      </p>
-                      <span className="mr-10"> 15 April 2020</span>
-                      <span className="has-dot"> 8 mins read</span>
-                    </div>
+                      </Link>
+                    </p>
+                    <span className="mr-10"> 15 April 2020</span>
+                    <span className="has-dot"> 8 mins read</span>
                   </div>
+                </div>
+                <div className="col-md-6 text-right d-none d-md-inline">
+                  <ul className="header-social-network d-inline-block list-inline mr-15">
+                    <li className="list-inline-item text-muted">
+                      <span>Share this: </span>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        className="social-icon fb text-xs-center"
+                        target="_blank"
+                        href="#"
+                      >
+                        <i className="elegant-icon social_facebook"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        className="social-icon tw text-xs-center"
+                        target="_blank"
+                        href="#"
+                      >
+                        <i className="elegant-icon social_twitter "></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        className="social-icon pt text-xs-center"
+                        target="_blank"
+                        href="#"
+                      >
+                        <i className="elegant-icon social_pinterest "></i>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
             {/* <!--end single header--> */}
+            <figure className="image mb-30 m-auto text-center border-radius-10">
+              <img
+                className="border-radius-10"
+                src="/assets/imgs/news/news-1.jpg"
+                alt="post-title"
+              />
+            </figure>
             {/* <!--figure--> */}
             <article className="entry-wraper mb-50">
               <div className="excerpt mb-30">
@@ -92,7 +105,7 @@ function Single3() {
                   purposefully much one at the much conjointly leapt skimpily
                   that quail sheep some goodness{" "}
                   <Link href="/#">
-                    <a href="/#">nightingale</a>
+                    <a>nightingale</a>
                   </Link>{" "}
                   the instead exited expedient up far ouch mellifluous
                   altruistic and and lighted more instead much when ferret but
@@ -144,7 +157,7 @@ function Single3() {
                 <p>
                   Yet more some certainly yet alas abandonedly whispered{" "}
                   <Link href="/#">
-                    <a href="/#">intriguingly</a>
+                    <a>intriguingly</a>
                   </Link>
                   <sup>
                     <Link href="/#">
@@ -154,7 +167,7 @@ function Single3() {
                   well extensive one howled talkative admonishingly below a
                   rethought overlaid dear gosh activated less{" "}
                   <Link href="/#">
-                    <a href="/#">however</a>
+                    <a>however</a>
                   </Link>{" "}
                   hawk yet oh scratched ostrich some outside crud irrespective
                   lightheartedly and much far amenably that the elephant since
@@ -164,7 +177,7 @@ function Single3() {
                 <p>
                   Furrowed this in the upset{" "}
                   <Link href="/#">
-                    <a href="/#">some across</a>
+                    <a>some across</a>
                   </Link>
                   <sup>
                     <Link href="/#">
@@ -173,7 +186,7 @@ function Single3() {
                   </sup>{" "}
                   tiger oh loaded house gosh whispered{" "}
                   <Link href="/#">
-                    <a href="/#">faltering alas</a>
+                    <a>faltering alas</a>
                   </Link>
                   <sup>
                     <Link href="/#">
@@ -444,7 +457,7 @@ function Single3() {
                             <ul className="social-share">
                               <li>
                                 <Link href="/#">
-                                  <a href="/#">
+                                  <a>
                                     <i className="elegant-icon social_share"></i>
                                   </a>
                                 </Link>
@@ -536,7 +549,7 @@ function Single3() {
                             <ul className="social-share">
                               <li>
                                 <Link href="/#">
-                                  <a href="/#">
+                                  <a>
                                     <i className="elegant-icon social_share"></i>
                                   </a>
                                 </Link>
@@ -870,4 +883,4 @@ function Single3() {
     </>
   );
 }
-export default Single3;
+export default Single;
