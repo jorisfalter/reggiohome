@@ -53,6 +53,7 @@ function CaregoryList() {
                               </div>
                             </div>
                           </div>
+                          {/* start of product list */}
                           <div className="col-md-8 align-self-center">
                             <div className="post-content">
                               <h5 className="post-title font-weight-900 mb-20">
