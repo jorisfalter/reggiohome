@@ -190,5 +190,21 @@
 		"likes": "",
 		"rating": "",
 		"totalPost": ""
+	},
+	{
+		"id": "post-13",
+		"img": "13-1.png",
+		"category": "",
+		"title": "100 Languages: Observational drawing",
+		"author": "",
+		"date": "18 Januari 2024",
+		"readTime": "",
+		"desc": "",
+		"views": "",
+		"tags": ["", "", ""],
+		"comments": "",
+		"likes": "",
+		"rating": "",
+		"totalPost": ""
 	}
 ]
