@@ -25,6 +25,14 @@ const SingleVendor = () => {
                     inspired classroom is observational drawing, also called
                     graphic representations, where children draw what they see.
                   </p>
+                  <figure className="image mb-30 m-auto text-center border-radius-10">
+                    <img
+                      className="border-radius-10"
+                      src={`/assets/imgs/news/13-2.png`} //  naam van de foto
+                      alt="happy children" //  dit is een beschrijving voor Google
+                      height="300px"
+                    />
+                  </figure>
                   <p>
                     <em>What is observational drawing?</em>
                   </p>
@@ -96,6 +104,14 @@ const SingleVendor = () => {
                     have eyebrows, and some of us have wreckless or other spots
                     on our face.
                   </p>
+                  <figure className="image mb-30 m-auto text-center border-radius-10">
+                    <img
+                      className="border-radius-10"
+                      src={`/assets/imgs/news/13-2.png`} //  naam van de foto
+                      alt="happy children" //  dit is een beschrijving voor Google
+                      height="300px"
+                    />
+                  </figure>
                   <p>
                     <em> Role of the teacher</em>
                   </p>
@@ -135,14 +151,6 @@ const SingleVendor = () => {
                     butterflies.{" "}
                   </p>
 
-                  <figure className="image mb-30 m-auto text-center border-radius-10">
-                    <img
-                      className="border-radius-10"
-                      src={`/assets/imgs/news/12-1.png`} //  naam van de foto
-                      alt="happy children" //  dit is een beschrijving voor Google
-                      height="300px"
-                    />
-                  </figure>
                   <p></p>
                 </div>
               </article>
