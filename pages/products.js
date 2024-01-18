@@ -106,6 +106,7 @@ function CaregoryList() {
                                 <Link
                                   href={`https://docs.google.com/presentation/d/1127kKhJBwA8brUzdqISQQK88Iwtoiq64Job4mE8daiQ/edit?pli=1#slide=id.p`}
                                   target="_blank"
+                                  rel="noopener noreferrer"
                                 >
                                   <a className="img-link"></a>
                                 </Link>
@@ -119,6 +120,7 @@ function CaregoryList() {
                                 <Link
                                   href={`https://docs.google.com/presentation/d/1127kKhJBwA8brUzdqISQQK88Iwtoiq64Job4mE8daiQ/edit?pli=1#slide=id.p`}
                                   target="_blank"
+                                  rel="noopener noreferrer"
                                 >
                                   <a>Documentation Template</a>
                                 </Link>
