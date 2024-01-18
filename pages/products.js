@@ -52,7 +52,11 @@ function CaregoryList() {
                                 }}
                               >
                                 <Link href={``}>
-                                  <a className="img-link"></a>
+                                  <a
+                                    className="img-link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  ></a>
                                 </Link>
                               </div>
                             </div>
@@ -63,7 +67,7 @@ function CaregoryList() {
                             <div className="post-content">
                               <h5 className="post-title font-weight-900 mb-20">
                                 <Link href={``}>
-                                  <a>
+                                  <a target="_blank" rel="noopener noreferrer">
                                     COMING SOON: Documentation Template
                                     including Quote Format Generator
                                   </a>
@@ -105,10 +109,12 @@ function CaregoryList() {
                               >
                                 <Link
                                   href={`https://docs.google.com/presentation/d/1127kKhJBwA8brUzdqISQQK88Iwtoiq64Job4mE8daiQ/edit?pli=1#slide=id.p`}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
                                 >
-                                  <a className="img-link"></a>
+                                  <a
+                                    className="img-link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  ></a>
                                 </Link>
                               </div>
                             </div>
@@ -119,10 +125,10 @@ function CaregoryList() {
                               <h5 className="post-title font-weight-900 mb-20">
                                 <Link
                                   href={`https://docs.google.com/presentation/d/1127kKhJBwA8brUzdqISQQK88Iwtoiq64Job4mE8daiQ/edit?pli=1#slide=id.p`}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
                                 >
-                                  <a>Documentation Template</a>
+                                  <a target="_blank" rel="noopener noreferrer">
+                                    Documentation Template
+                                  </a>
                                 </Link>
 
                                 <p
