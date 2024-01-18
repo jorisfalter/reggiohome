@@ -28,7 +28,7 @@ const SingleVendor = () => {
                   <figure className="image mb-30 m-auto text-center border-radius-10">
                     <img
                       className="border-radius-10"
-                      src={`/assets/imgs/news/13-2.png`} //  naam van de foto
+                      src={`/assets/imgs/news/13-1.png`} //  naam van de foto
                       alt="happy children" //  dit is een beschrijving voor Google
                       height="300px"
                     />
