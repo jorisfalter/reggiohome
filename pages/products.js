@@ -54,8 +54,8 @@ function CaregoryList() {
                                 <Link href={``}>
                                   <a
                                     className="img-link"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
+                                    // target="_blank"
+                                    // rel="noopener noreferrer"
                                   ></a>
                                 </Link>
                               </div>
@@ -67,7 +67,9 @@ function CaregoryList() {
                             <div className="post-content">
                               <h5 className="post-title font-weight-900 mb-20">
                                 <Link href={``}>
-                                  <a target="_blank" rel="noopener noreferrer">
+                                  <a
+                                  // target="_blank" rel="noopener noreferrer"
+                                  >
                                     COMING SOON: Documentation Template
                                     including Quote Format Generator
                                   </a>
