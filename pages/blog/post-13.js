@@ -15,7 +15,7 @@ const SingleVendor = () => {
               <div className="entry-header entry-header-style-1 mb-50 pt-50">
                 <h1 className="entry-title mb-50 font-weight-900">
                   {" "}
-                  100 Languages: Observational drawing
+                  100 Languages: Observational Drawing
                 </h1>
               </div>
               <article className="entry-wraper mb-50">
