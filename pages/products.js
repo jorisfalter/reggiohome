@@ -86,9 +86,9 @@ function CaregoryList() {
                               </div>
                             </div>
                           </div>
+
                           {/* first template */}
                           {/* first template image */}
-
                           <div
                             className="col-md-4"
                             style={{ "padding-top": "15px" }}
@@ -105,6 +105,7 @@ function CaregoryList() {
                               >
                                 <Link
                                   href={`https://docs.google.com/presentation/d/1127kKhJBwA8brUzdqISQQK88Iwtoiq64Job4mE8daiQ/edit?pli=1#slide=id.p`}
+                                  target="_blank"
                                 >
                                   <a className="img-link"></a>
                                 </Link>
@@ -117,6 +118,7 @@ function CaregoryList() {
                               <h5 className="post-title font-weight-900 mb-20">
                                 <Link
                                   href={`https://docs.google.com/presentation/d/1127kKhJBwA8brUzdqISQQK88Iwtoiq64Job4mE8daiQ/edit?pli=1#slide=id.p`}
+                                  target="_blank"
                                 >
                                   <a>Documentation Template</a>
                                 </Link>
